@@ -43,30 +43,31 @@ export const GiveawayDesktop = ({
         className
       }
     >
-      <div id="home" className="pr-12 pl-12 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
+      <div id="home" className="px-4 lg:pr-12 lg:pl-12 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
         <Navbar activeSection={activeSection} onNavClick={setActiveSection} />
         <div className="flex flex-col items-center justify-start self-stretch shrink-0 relative">
-          <div className="shrink-0 w-[300px] h-[159.14px] relative overflow-hidden">
+          <div className="shrink-0 w-[200px] lg:w-[300px] h-auto lg:h-[159.14px] relative overflow-hidden">
             <img
-              className="h-[auto] absolute left-[7.06px] top-[6.29px] overflow-visible"
+              className="h-[auto] w-full lg:absolute lg:left-[7.06px] lg:top-[6.29px] overflow-visible"
               src="_95-ab-145-f-1-c-63-4812-a-5-a-9-d-6-a-0-e-5-af-06-db0.svg"
+              alt="Star decoration"
             />
           </div>
           <div
             className="flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative"
-            style={{ margin: "-105px 0 0 0" }}
+            style={{ margin: "-60px 0 0 0" }}
           >
             <div
-              className="rounded-3xl pr-8 flex flex-row items-start justify-between self-stretch shrink-0 relative overflow-hidden"
+              className="rounded-xl lg:rounded-3xl p-4 lg:pr-8 lg:p-0 flex flex-col lg:flex-row items-center lg:items-start justify-between self-stretch shrink-0 relative overflow-hidden"
               style={{
                 background:
                   "linear-gradient(52.79deg, rgba(255, 220, 110, 1.00) 0%,rgba(254, 120, 0, 1.00) 100%)",
               }}
             >
-              <div className="flex flex-col items-start justify-between self-stretch shrink-0 w-[482px] relative">
-                <div className="pt-10 pl-12 flex flex-col gap-8 items-start justify-start w-[100%] shrink-0 max-w-paragraph-max-width relative">
+              <div className="flex flex-col items-center lg:items-start justify-between self-stretch shrink-0 w-full lg:w-[482px] relative">
+                <div className="pt-6 lg:pt-10 px-4 lg:pl-12 lg:pr-0 flex flex-col gap-6 lg:gap-8 items-center lg:items-start justify-start w-[100%] shrink-0 max-w-paragraph-max-width relative">
                   <div
-                    className="text-left font-['Montserrat-Black',_sans-serif] text-[40px] leading-[1.1] font-black uppercase relative self-stretch"
+                    className="text-center lg:text-left font-['Montserrat-Black',_sans-serif] text-2xl lg:text-[40px] leading-[1.1] font-black uppercase relative self-stretch"
                     style={{ letterSpacing: "-0.02em" }}
                   >
                     <span className="text-neutral-white">Your Shot at</span>
@@ -78,37 +79,39 @@ export const GiveawayDesktop = ({
                     <br />
                     <span className="text-neutral-white">Starts Right Here</span>
                   </div>
-                  <div className="flex flex-col gap-6 items-start justify-start self-stretch shrink-0 relative">
-                    <div className="text-neutral-950 text-left font-['Poppins-Regular',_sans-serif] text-base leading-normal font-normal relative self-stretch flex items-center justify-start">
+                  <div className="flex flex-col gap-4 lg:gap-6 items-center lg:items-start justify-start self-stretch shrink-0 relative">
+                    <div className="text-neutral-950 text-center lg:text-left font-['Poppins-Regular',_sans-serif] text-sm lg:text-base leading-normal font-normal relative self-stretch flex items-center justify-start">
                       Enter now and you&#039;re instantly in the running for the
                       grand prize, PLUS you&#039;ll unlock an exclusive travel
                       offer just for entering.{" "}
                     </div>
                     <div className="bg-[rgba(0,0,0,0.20)] rounded-[50px] pt-0.5 pr-3 pb-0.5 pl-3 flex flex-row gap-2.5 items-center justify-center shrink-0 relative">
-                      <div className="text-neutral-white text-left font-['Montserrat-SemiBold',_sans-serif] text-sm leading-normal font-semibold uppercase relative flex items-center justify-start">
+                      <span className="text-neutral-white text-center lg:text-left font-['Montserrat-SemiBold',_sans-serif] text-xs lg:text-sm leading-normal font-semibold uppercase relative flex items-center justify-start">
                         No catch. No purchase necessary.{" "}
-                      </div>
+                      </span>
                     </div>
                   </div>
                 </div>
-                <div className="bg-neutral-white rounded-tr-2xl pt-6 pr-12 pb-2.5 pl-12 flex flex-row gap-2.5 items-center justify-center shrink-0 relative">
-                  <div className="text-blue-700 text-left font-['Montserrat-Bold',_sans-serif] text-xl font-bold relative">
+                <div className="bg-neutral-white rounded-tr-2xl pt-4 lg:pt-6 px-6 lg:pr-12 pb-2.5 lg:pl-12 flex flex-row gap-2.5 items-center justify-center shrink-0 relative mt-4 lg:mt-0">
+                  <span className="text-blue-700 text-center lg:text-left font-['Montserrat-Bold',_sans-serif] text-base lg:text-xl font-bold relative">
                     Sign Up for Your Chance to Win!{" "}
-                  </div>
+                  </span>
                   <img
-                    className="shrink-0 w-5 h-5 absolute right-[-40px] bottom-0 overflow-visible"
+                    className="shrink-0 w-5 h-5 absolute right-[-40px] bottom-0 overflow-visible hidden lg:block"
                     style={{ transform: "translate(-20px, 0px)" }}
                     src="vector-210.svg"
+                    alt=""
                   />
                   <img
-                    className="shrink-0 w-5 h-5 absolute left-5 top-[-20px] overflow-visible"
+                    className="shrink-0 w-5 h-5 absolute left-5 top-[-20px] overflow-visible hidden lg:block"
                     style={{ transform: "translate(-20px, 0px)" }}
                     src="vector-220.svg"
+                    alt=""
                   />
                 </div>
               </div>
-              <TruckProperty1Chevy className="!shrink-0 !w-[623px]"></TruckProperty1Chevy>
-              <div className="shrink-0 w-[87.44px] h-[96.12px] static">
+              <TruckProperty1Chevy className="!shrink-0 w-full lg:!w-[623px] mt-4 lg:mt-0"></TruckProperty1Chevy>
+              <div className="shrink-0 w-[87.44px] h-[96.12px] static hidden lg:block">
                 <div className="w-[86.49px] h-[86.34px] absolute left-[1225px] top-[34px] overflow-hidden">
                   <img
                     className="w-[82.56%] h-[68.61%] absolute right-[8.72%] left-[8.72%] bottom-[16.33%] top-[15.06%] overflow-visible"
@@ -158,10 +161,10 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="pt-[88px] pr-12 pb-[88px] pl-12 flex flex-col gap-20 items-center justify-center self-stretch shrink-0 relative">
-        <div className="flex flex-row items-center justify-between self-stretch shrink-0 relative">
+      <div className="pt-12 lg:pt-[88px] px-4 lg:pr-12 pb-12 lg:pb-[88px] lg:pl-12 flex flex-col gap-10 lg:gap-20 items-center justify-center self-stretch shrink-0 relative">
+        <div className="flex flex-col lg:flex-row items-center justify-between self-stretch shrink-0 relative gap-6 lg:gap-0">
           <div
-            className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between flex-1 h-[451.93px] relative overflow-hidden"
+            className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between w-full lg:flex-1 h-[300px] lg:h-[451.93px] relative overflow-hidden order-1 lg:order-none"
             style={{
               borderImage:
                 "linear-gradient(180deg, rgba(230, 231, 233, 0.50) 0%,rgba(255, 255, 255, 0.80) 49.78649318218231%,rgba(255, 255, 255, 0.30) 100%)",
@@ -195,7 +198,7 @@ export const GiveawayDesktop = ({
               </div>
             </div>
           </div>
-          <div className="rounded-xl pt-20 pr-8 pb-20 pl-8 flex flex-col gap-8 items-center justify-start shrink-0 relative">
+          <div className="rounded-xl pt-6 lg:pt-20 px-4 lg:pr-8 pb-6 lg:pb-20 lg:pl-8 flex flex-col gap-6 lg:gap-8 items-center justify-start shrink-0 relative order-0 lg:order-none">
             <img
               className="rounded-xl flex flex-row gap-2.5 items-center justify-start shrink-0 w-20 h-20 relative"
               style={{ objectFit: "cover", aspectRatio: "1" }}
@@ -220,7 +223,7 @@ export const GiveawayDesktop = ({
             </div>
           </div>
           <div
-            className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between flex-1 h-[451.93px] relative overflow-hidden"
+            className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between w-full lg:flex-1 h-[300px] lg:h-[451.93px] relative overflow-hidden order-2 lg:order-none"
             style={{
               borderImage:
                 "linear-gradient(180deg, rgba(230, 231, 233, 0.50) 0%,rgba(255, 255, 255, 0.80) 49.78649318218231%,rgba(255, 255, 255, 0.30) 100%)",
@@ -340,9 +343,9 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="p-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
-        <div className="bg-grey-10 rounded-[20px] p-16 flex flex-row gap-12 items-center justify-center self-stretch shrink-0 relative">
-          <div className="rounded-xl flex flex-col gap-8 items-start justify-start shrink-0 w-[500px] max-w-[500px] relative">
+      <div className="p-4 lg:p-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
+        <div className="bg-grey-10 rounded-[20px] p-6 lg:p-16 flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center self-stretch shrink-0 relative">
+          <div className="rounded-xl flex flex-col gap-6 lg:gap-8 items-start justify-start shrink-0 w-full lg:w-[500px] lg:max-w-[500px] relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
                 className="text-orange-400 text-left font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative self-stretch"
@@ -468,9 +471,9 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div id="about" className="p-12 flex flex-row gap-[100px] items-center justify-center shrink-0 w-full max-w-[1440px] relative">
-        <div className="flex flex-row gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
-          <div className="shrink-0 w-[579px] h-[557.93px] static">
+      <div id="about" className="p-4 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full max-w-[1440px] relative">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
+          <div className="shrink-0 w-full lg:w-[579px] h-[400px] lg:h-[557.93px] relative hidden lg:block">
             <img
               className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-[193px] top-0"
               style={{
@@ -692,9 +695,9 @@ export const GiveawayDesktop = ({
           ></ButtonProperty1White>
         </div>
       </div>
-      <div id="deals" className="pt-6 pr-12 pb-8 pl-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
-        <div className="bg-grey-10 rounded-[20px] pt-16 pb-16 pl-12 flex flex-row gap-16 items-end justify-center self-stretch shrink-0 relative">
-          <div className="rounded-xl flex flex-col gap-8 items-start justify-start shrink-0 w-[500px] max-w-[500px] relative">
+      <div id="deals" className="pt-6 px-4 lg:pr-12 pb-8 lg:pl-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
+        <div className="bg-grey-10 rounded-[20px] pt-8 lg:pt-16 pb-8 lg:pb-16 px-4 lg:pl-12 flex flex-col lg:flex-row gap-8 lg:gap-16 items-center lg:items-end justify-center self-stretch shrink-0 relative">
+          <div className="rounded-xl flex flex-col gap-6 lg:gap-8 items-start justify-start shrink-0 w-full lg:w-[500px] lg:max-w-[500px] relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
                 className="text-orange-400 text-left font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative self-stretch"
@@ -790,9 +793,9 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="p-12 flex flex-row gap-[100px] items-center justify-center shrink-0 w-full max-w-[1440px] relative">
-        <div className="flex flex-row gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
-          <div className="shrink-0 w-[579px] h-[557.93px] static">
+      <div className="p-4 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full max-w-[1440px] relative">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
+          <div className="shrink-0 w-full lg:w-[579px] h-[400px] lg:h-[557.93px] relative hidden lg:block">
             <img
               className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-[193px] top-0"
               style={{
@@ -812,7 +815,7 @@ export const GiveawayDesktop = ({
               src="rectangle-41.png"
             />
           </div>
-          <div className="flex flex-col gap-8 items-start justify-start flex-1 relative">
+          <div className="flex flex-col gap-6 lg:gap-8 items-start justify-start flex-1 relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
                 className="text-blue-700 text-left font-['Montserrat-Black',_sans-serif] text-3xl leading-none font-black uppercase relative"
