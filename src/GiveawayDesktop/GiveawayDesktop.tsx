@@ -454,7 +454,7 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div id="about" className="p-12 flex flex-row gap-[100px] items-center justify-center shrink-0 w-[1440px] relative">
+      <div id="about" className="p-12 flex flex-row gap-[100px] items-center justify-center shrink-0 w-full max-w-[1440px] relative">
         <div className="flex flex-row gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
           <div className="shrink-0 w-[579px] h-[557.93px] static">
             <img
@@ -770,7 +770,7 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="p-12 flex flex-row gap-[100px] items-center justify-center shrink-0 w-[1440px] relative">
+      <div className="p-12 flex flex-row gap-[100px] items-center justify-center shrink-0 w-full max-w-[1440px] relative">
         <div className="flex flex-row gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
           <div className="shrink-0 w-[579px] h-[557.93px] static">
             <img
@@ -830,7 +830,7 @@ export const GiveawayDesktop = ({
         </div>
       </div>
       <div id="contact" className="w-full">
-        <Footer className="!shrink-0 !w-[1440px]" />
+        <Footer className="!shrink-0 !w-full !max-w-[1440px]" />
       </div>
     </div>
   );

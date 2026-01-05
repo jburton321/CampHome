@@ -545,8 +545,17 @@ video {
   display: none;
 }
 
-html {
+html, body {
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+#root {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 a, button {
@@ -1016,16 +1025,16 @@ a:focus, button:focus {
   min-height: 160px;
 }
 
-.\!w-\[1440px\] {
-  width: 1440px !important;
-}
-
 .\!w-\[388\.95px\] {
   width: 388.95px !important;
 }
 
 .\!w-\[623px\] {
   width: 623px !important;
+}
+
+.\!w-full {
+  width: 100% !important;
 }
 
 .w-0\.5 {
@@ -1066,10 +1075,6 @@ a:focus, button:focus {
 
 .w-\[100\.01\%\] {
   width: 100.01%;
-}
-
-.w-\[1440px\] {
-  width: 1440px;
 }
 
 .w-\[17\.01px\] {
@@ -1172,8 +1177,16 @@ a:focus, button:focus {
   min-width: 300px;
 }
 
+.\!max-w-\[1440px\] {
+  max-width: 1440px !important;
+}
+
 .max-w-\[1200px\] {
   max-width: 1200px;
+}
+
+.max-w-\[1440px\] {
+  max-width: 1440px;
 }
 
 .max-w-\[500px\] {
