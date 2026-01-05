@@ -474,9 +474,9 @@ export const GiveawayDesktop = ({
       </div>
       <div className="p-4 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full lg:w-[1440px] lg:max-w-[1440px] relative">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
-          <div className="shrink-0 w-[280px] h-[320px] lg:w-[579px] lg:h-[557.93px] relative">
+          <div className="group shrink-0 w-[280px] h-[320px] lg:w-[579px] lg:h-[557.93px] relative">
             <img
-              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-[100px] lg:left-[193px] top-0"
+              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-[100px] lg:left-[193px] top-0 transition-all duration-700 ease-out hover:scale-105 hover:shadow-2xl cursor-pointer"
               style={{
                 boxShadow:
                   "var(--big-card-left-shadow-box-shadow,  -20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
@@ -485,7 +485,7 @@ export const GiveawayDesktop = ({
               src="rectangle-30.png"
             />
             <img
-              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-0 top-[120px] lg:top-[150.93px]"
+              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-0 top-[120px] lg:top-[150.93px] transition-all duration-700 ease-out hover:scale-105 hover:shadow-2xl cursor-pointer z-10"
               style={{
                 boxShadow:
                   "var(--big-card-right-shadow-box-shadow,  20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
@@ -589,8 +589,8 @@ export const GiveawayDesktop = ({
             </div>
           </div>
           <div className="hidden lg:flex flex-row gap-16 items-start justify-center self-stretch shrink-0 h-[383px] relative">
-            <div className="self-stretch flex-1 static">
-              <div className="bg-neutral-white rounded-[10px] p-4 flex flex-col gap-3 items-start justify-center w-[238.81px] h-[43.59px] absolute left-[134.53px] top-[339.41px] z-10">
+            <div className="self-stretch flex-1 static group cursor-pointer">
+              <div className="bg-neutral-white rounded-[10px] p-4 flex flex-col gap-3 items-start justify-center w-[238.81px] h-[43.59px] absolute left-[134.53px] top-[339.41px] z-10 transition-all duration-300 ease-out group-hover:shadow-lg">
                 <div className="flex flex-row gap-2 items-center justify-start self-stretch shrink-0 relative">
                   <img
                     className="shrink-0 w-6 h-6 relative overflow-visible"
@@ -606,16 +606,16 @@ export const GiveawayDesktop = ({
                 </div>
               </div>
               <img
-                className="w-[348.65px] h-[373.66px] absolute left-0 top-0 rounded-2xl"
+                className="w-[348.65px] h-[373.66px] absolute left-0 top-0 rounded-2xl transition-transform duration-700 ease-out group-hover:scale-105"
                 style={{ objectFit: "cover" }}
                 src="rectangle-60.png"
               />
               <img
-                className="rounded-none w-[348.65px] h-[373.66px] absolute left-0 top-0 overflow-visible z-[1]"
+                className="rounded-none w-[348.65px] h-[373.66px] absolute left-0 top-0 overflow-visible z-[1] transition-transform duration-700 ease-out group-hover:scale-105"
                 src="mask0.svg"
               />
             </div>
-            <div className="self-stretch flex-1 static">
+            <div className="self-stretch flex-1 static group cursor-pointer">
               <div className="bg-[#dffeec] rounded-xl p-4 flex flex-col gap-3 items-start justify-center w-[238.81px] h-[43.59px] absolute left-[571.86px] top-[339.41px]">
                 <div className="flex flex-row gap-2 items-center justify-start self-stretch shrink-0 relative">
                   <img
@@ -631,7 +631,7 @@ export const GiveawayDesktop = ({
                   </div>
                 </div>
               </div>
-              <div className="bg-neutral-white rounded-[10px] p-4 flex flex-col gap-3 items-start justify-center w-[238.81px] h-[43.59px] absolute left-[571.86px] top-[339.41px] z-10">
+              <div className="bg-neutral-white rounded-[10px] p-4 flex flex-col gap-3 items-start justify-center w-[238.81px] h-[43.59px] absolute left-[571.86px] top-[339.41px] z-10 transition-all duration-300 ease-out group-hover:shadow-lg">
                 <div className="flex flex-row gap-2 items-center justify-start self-stretch shrink-0 relative">
                   <img
                     className="shrink-0 w-6 h-6 relative overflow-visible"
@@ -647,17 +647,17 @@ export const GiveawayDesktop = ({
                 </div>
               </div>
               <img
-                className="w-[348.66px] h-[373.66px] absolute left-[437.34px] top-0 rounded-2xl"
+                className="w-[348.66px] h-[373.66px] absolute left-[437.34px] top-0 rounded-2xl transition-transform duration-700 ease-out group-hover:scale-105"
                 style={{ objectFit: "cover" }}
                 src="rectangle-61.png"
               />
               <img
-                className="rounded-none w-[348.66px] h-[373.66px] absolute left-[437.34px] top-0 overflow-visible z-[1]"
+                className="rounded-none w-[348.66px] h-[373.66px] absolute left-[437.34px] top-0 overflow-visible z-[1] transition-transform duration-700 ease-out group-hover:scale-105"
                 src="mask1.svg"
               />
             </div>
-            <div className="self-stretch flex-1 static">
-              <div className="bg-neutral-white rounded-[10px] p-4 flex flex-col gap-3 items-start justify-center w-[238.81px] h-[43.59px] absolute left-[1009.19px] top-[339.41px] z-10">
+            <div className="self-stretch flex-1 static group cursor-pointer">
+              <div className="bg-neutral-white rounded-[10px] p-4 flex flex-col gap-3 items-start justify-center w-[238.81px] h-[43.59px] absolute left-[1009.19px] top-[339.41px] z-10 transition-all duration-300 ease-out group-hover:shadow-lg">
                 <div className="flex flex-row gap-2 items-center justify-start self-stretch shrink-0 relative">
                   <img
                     className="shrink-0 w-6 h-6 relative overflow-visible"
@@ -673,12 +673,12 @@ export const GiveawayDesktop = ({
                 </div>
               </div>
               <img
-                className="w-[348.66px] h-[373.66px] absolute left-[874.67px] top-0 rounded-2xl"
+                className="w-[348.66px] h-[373.66px] absolute left-[874.67px] top-0 rounded-2xl transition-transform duration-700 ease-out group-hover:scale-105"
                 style={{ objectFit: "cover" }}
                 src="rectangle-62.png"
               />
               <img
-                className="rounded-none w-[348.66px] h-[373.66px] absolute left-[874.67px] top-0 overflow-visible z-[1]"
+                className="rounded-none w-[348.66px] h-[373.66px] absolute left-[874.67px] top-0 overflow-visible z-[1] transition-transform duration-700 ease-out group-hover:scale-105"
                 src="mask2.svg"
               />
             </div>
@@ -796,9 +796,9 @@ export const GiveawayDesktop = ({
       </div>
       <div className="p-4 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full lg:w-[1440px] lg:max-w-[1440px] relative">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
-          <div className="shrink-0 w-[280px] h-[320px] lg:w-[579px] lg:h-[557.93px] relative">
+          <div className="group shrink-0 w-[280px] h-[320px] lg:w-[579px] lg:h-[557.93px] relative">
             <img
-              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-[100px] lg:left-[193px] top-0"
+              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-[100px] lg:left-[193px] top-0 transition-all duration-700 ease-out hover:scale-105 hover:shadow-2xl cursor-pointer"
               style={{
                 boxShadow:
                   "var(--big-card-left-shadow-box-shadow,  -20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
@@ -807,7 +807,7 @@ export const GiveawayDesktop = ({
               src="rectangle-31.png"
             />
             <img
-              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-0 top-[120px] lg:top-[150.93px]"
+              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-0 top-[120px] lg:top-[150.93px] transition-all duration-700 ease-out hover:scale-105 hover:shadow-2xl cursor-pointer z-10"
               style={{
                 boxShadow:
                   "var(--big-card-right-shadow-box-shadow,  20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
