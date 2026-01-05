@@ -961,10 +961,6 @@ a:focus, button:focus {
   height: 300px;
 }
 
-.h-\[31px\] {
-  height: 31px;
-}
-
 .h-\[320px\] {
   height: 320px;
 }
@@ -975,10 +971,6 @@ a:focus, button:focus {
 
 .h-\[383px\] {
   height: 383px;
-}
-
-.h-\[427px\] {
-  height: 427px;
 }
 
 .h-\[43\.59px\] {
@@ -1061,6 +1053,10 @@ a:focus, button:focus {
   width: 5rem;
 }
 
+.w-3 {
+  width: 0.75rem;
+}
+
 .w-40 {
   width: 10rem;
 }
@@ -1087,10 +1083,6 @@ a:focus, button:focus {
 
 .w-\[120px\] {
   width: 120px;
-}
-
-.w-\[17\.01px\] {
-  width: 17.01px;
 }
 
 .w-\[180px\] {
@@ -1283,10 +1275,6 @@ a:focus, button:focus {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .gap-6 {
@@ -1785,10 +1773,6 @@ a:focus, button:focus {
   font-size: 28px;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
-}
-
 .text-\[6\.34727144241333px\] {
   font-size: 6.34727144241333px;
 }
@@ -2114,8 +2098,20 @@ a:focus, button:focus {
     display: none;
   }
 
+  .lg\:h-20 {
+    height: 5rem;
+  }
+
+  .lg\:h-\[31px\] {
+    height: 31px;
+  }
+
   .lg\:h-\[407px\] {
     height: 407px;
+  }
+
+  .lg\:h-\[427px\] {
+    height: 427px;
   }
 
   .lg\:h-\[451\.93px\] {
@@ -2140,6 +2136,10 @@ a:focus, button:focus {
 
   .lg\:w-\[1440px\] {
     width: 1440px;
+  }
+
+  .lg\:w-\[17\.01px\] {
+    width: 17.01px;
   }
 
   .lg\:w-\[174\.4px\] {
@@ -2226,6 +2226,10 @@ a:focus, button:focus {
     gap: 1rem;
   }
 
+  .lg\:gap-5 {
+    gap: 1.25rem;
+  }
+
   .lg\:gap-6 {
     gap: 1.5rem;
   }
@@ -2240,6 +2244,14 @@ a:focus, button:focus {
 
   .lg\:self-stretch {
     align-self: stretch;
+  }
+
+  .lg\:rounded-xl {
+    border-radius: 0.75rem;
+  }
+
+  .lg\:bg-neutral-white {
+    background-color: var(--neutral-white, #ffffff);
   }
 
   .lg\:p-12 {
@@ -2310,6 +2322,10 @@ a:focus, button:focus {
     padding-left: 0.75rem;
   }
 
+  .lg\:pl-8 {
+    padding-left: 2rem;
+  }
+
   .lg\:pr-0 {
     padding-right: 0px;
   }
@@ -2349,6 +2365,17 @@ a:focus, button:focus {
 
   .lg\:text-\[40px\] {
     font-size: 40px;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:shadow-\[0px_10px_30px_-12px_rgba\(0\2c 0\2c 0\2c 0\.25\)\] {
+    --tw-shadow: 0px 10px 30px -12px rgba(0,0,0,0.25);
+    --tw-shadow-colored: 0px 10px 30px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }
       

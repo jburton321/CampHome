@@ -254,14 +254,13 @@ export const GiveawayDesktop = ({
         </div>
       </div>
       <img
-        className="flex flex-col gap-2.5 items-center justify-start self-stretch shrink-0 h-[427px] relative"
+        className="flex flex-col gap-2.5 items-center justify-start self-stretch shrink-0 h-[200px] lg:h-[427px] relative"
         style={{ objectFit: "cover" }}
         src="frame-19840779200.png"
       />
       <div
-        className="shrink-0 relative overflow-hidden self-stretch flex items-center"
+        className="shrink-0 relative overflow-hidden self-stretch flex items-center h-12 lg:h-20"
         style={{
-          height: "80px",
           background:
             "linear-gradient(90deg, rgba(255, 171, 0, 1.00) 0%,rgba(255, 97, 0, 1.00) 100%)",
         }}
@@ -280,60 +279,66 @@ export const GiveawayDesktop = ({
               display: flex;
               animation: scroll-banner 20s linear infinite;
             }
+            .scroll-banner-text-outline {
+              -webkit-text-stroke: 1px #ffffff;
+            }
+            @media (min-width: 1024px) {
+              .scroll-banner-text-outline {
+                -webkit-text-stroke: 2px #ffffff;
+              }
+            }
           `}
         </style>
         <div className="scroll-banner-container">
-          <div className="pr-8 pl-8 flex flex-row gap-5 items-center justify-center shrink-0">
+          <div className="pr-4 pl-4 lg:pr-8 lg:pl-8 flex flex-row gap-3 lg:gap-5 items-center justify-center shrink-0">
             <div
-              className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
+              className="scroll-banner-text-outline text-center font-['Montserrat-Bold',_sans-serif] text-xl lg:text-[40px] leading-none font-bold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
               style={{
                 letterSpacing: "0.05em",
                 color: "transparent",
-                WebkitTextStroke: "2px #ffffff",
                 paintOrder: "stroke fill",
               }}
             >
               Enter Now to Win
             </div>
             <img
-              className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
+              className="shrink-0 w-3 h-5 lg:w-[17.01px] lg:h-[31px] relative overflow-visible"
               src="group-280.svg"
             />
             <div
-              className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
+              className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-xl lg:text-[40px] leading-none font-extrabold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
               style={{ letterSpacing: "0.05em" }}
             >
               No Purchase Necessary
             </div>
             <img
-              className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
+              className="shrink-0 w-3 h-5 lg:w-[17.01px] lg:h-[31px] relative overflow-visible"
               src="group-290.svg"
             />
           </div>
-          <div className="pr-8 pl-8 flex flex-row gap-5 items-center justify-center shrink-0">
+          <div className="pr-4 pl-4 lg:pr-8 lg:pl-8 flex flex-row gap-3 lg:gap-5 items-center justify-center shrink-0">
             <div
-              className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
+              className="scroll-banner-text-outline text-center font-['Montserrat-Bold',_sans-serif] text-xl lg:text-[40px] leading-none font-bold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
               style={{
                 letterSpacing: "0.05em",
                 color: "transparent",
-                WebkitTextStroke: "2px #ffffff",
                 paintOrder: "stroke fill",
               }}
             >
               Enter Now to Win
             </div>
             <img
-              className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
+              className="shrink-0 w-3 h-5 lg:w-[17.01px] lg:h-[31px] relative overflow-visible"
               src="group-300.svg"
             />
             <div
-              className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
+              className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-xl lg:text-[40px] leading-none font-extrabold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
               style={{ letterSpacing: "0.05em" }}
             >
               No Purchase Necessary
             </div>
             <img
-              className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
+              className="shrink-0 w-3 h-5 lg:w-[17.01px] lg:h-[31px] relative overflow-visible"
               src="group-280.svg"
             />
           </div>
@@ -344,20 +349,20 @@ export const GiveawayDesktop = ({
           <div className="rounded-xl flex flex-col gap-6 lg:gap-8 items-start justify-start shrink-0 w-full lg:w-[500px] lg:max-w-[500px] relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
-                className="text-orange-400 text-left font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative self-stretch"
+                className="text-orange-400 text-left font-['Montserrat-Bold',_sans-serif] text-3xl lg:text-[40px] leading-none font-bold uppercase relative self-stretch"
                 style={{ letterSpacing: "-0.02em" }}
               >
                 BONUS GIFTS{" "}
               </div>
               <div
-                className="text-blue-700 text-left font-['Montserrat-Black',_sans-serif] text-[40px] leading-none font-black uppercase relative self-stretch"
+                className="text-blue-700 text-left font-['Montserrat-Black',_sans-serif] text-3xl lg:text-[40px] leading-none font-black uppercase relative self-stretch"
                 style={{ letterSpacing: "-0.02em" }}
               >
                 GALORE{" "}
               </div>
             </div>
             <div className="flex flex-col gap-3 items-start justify-start self-stretch shrink-0 relative">
-              <div className="text-blue-700 text-left font-['Poppins-SemiBold',_sans-serif] text-xl leading-normal font-semibold uppercase relative self-stretch flex items-center justify-start">
+              <div className="text-blue-700 text-left font-['Poppins-SemiBold',_sans-serif] text-lg lg:text-xl leading-normal font-semibold uppercase relative self-stretch flex items-center justify-start">
                 Here's the deal: everyone who enters has a chance of winning.{" "}
               </div>
               <div className="text-neutral-950 text-left font-['Poppins-Regular',_sans-serif] text-base leading-normal font-normal relative self-stretch flex items-center justify-start">
@@ -696,13 +701,13 @@ export const GiveawayDesktop = ({
           <div className="rounded-xl flex flex-col gap-6 lg:gap-8 items-start justify-start shrink-0 w-full lg:w-[500px] lg:max-w-[500px] relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
-                className="text-orange-400 text-left font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative self-stretch"
+                className="text-orange-400 text-left font-['Montserrat-Bold',_sans-serif] text-3xl lg:text-[40px] leading-none font-bold uppercase relative self-stretch"
                 style={{ letterSpacing: "-0.02em" }}
               >
                 POPULAR{" "}
               </div>
               <div
-                className="text-blue-700 text-left font-['Montserrat-Black',_sans-serif] text-[40px] leading-none font-black uppercase relative self-stretch"
+                className="text-blue-700 text-left font-['Montserrat-Black',_sans-serif] text-3xl lg:text-[40px] leading-none font-black uppercase relative self-stretch"
                 style={{ letterSpacing: "-0.02em" }}
               >
                 RV RESORT DEALS{" "}

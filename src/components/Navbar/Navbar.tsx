@@ -8,10 +8,9 @@ export const Navbar = ({ className }: INavbarProps): JSX.Element => {
   return (
     <div
       className={
-        "bg-neutral-white rounded-xl py-4 lg:pt-8 lg:pb-5 flex flex-row items-center justify-between self-stretch shrink-0 relative overflow-hidden " +
+        "lg:bg-neutral-white lg:rounded-xl py-4 lg:pt-8 lg:pb-5 flex flex-row items-center justify-between self-stretch shrink-0 relative overflow-hidden lg:shadow-[0px_10px_30px_-12px_rgba(0,0,0,0.25)] " +
         className
       }
-      style={{ boxShadow: "0px 10px 30px -12px rgba(0, 0, 0, 0.25)" }}
     >
       <img
         className="shrink-0 w-[120px] lg:w-[174.4px] h-auto relative overflow-visible"
