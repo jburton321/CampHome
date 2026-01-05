@@ -39,22 +39,21 @@ export const Navbar = ({
       <img
         className="shrink-0 w-[174.4px] h-[31.18px] relative overflow-visible"
         src="group-190.svg"
-        alt="CampNow Logo"
+        alt=""
       />
-      <nav className="flex flex-row gap-8 items-center justify-end shrink-0 relative">
+      <div className="flex flex-row gap-8 items-center justify-end shrink-0 relative">
         {navItems.map((item) => (
-          <button
+          <div
             key={item.id}
             onClick={() => handleNavClick(item.id)}
             className={
-              "flex flex-row gap-1 items-center justify-center shrink-0 relative cursor-pointer bg-transparent border-0 p-0 " +
+              "flex flex-row gap-1 items-center justify-center shrink-0 relative cursor-pointer " +
               (activeSection === item.id
                 ? "border-solid border-orange-500 border-b-2"
                 : "")
             }
-            style={{ outline: "none" }}
           >
-            <span
+            <div
               className={
                 "text-left font-['Inter-Regular',_sans-serif] text-text-sizes-text-regular leading-normal font-normal uppercase relative " +
                 (activeSection === item.id
@@ -62,22 +61,16 @@ export const Navbar = ({
                   : "text-color-scheme-1-text")
               }
             >
-              {item.label}
-            </span>
-          </button>
+              {item.label}{" "}
+            </div>
+          </div>
         ))}
-      </nav>
-      <a
-        href="tel:18886641859"
-        className="no-underline"
-        style={{ textDecoration: "none" }}
-      >
-        <ButtonProperty1Active
-          text="Call now 1 (888) 664-1859"
-          property1="active"
-          className="!shrink-0 cursor-pointer"
-        />
-      </a>
+      </div>
+      <ButtonProperty1Active
+        text="Call now 1 (888) 664-1859"
+        property1="active"
+        className="!shrink-0"
+      />
     </div>
   );
 };

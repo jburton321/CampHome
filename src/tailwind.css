@@ -545,6 +545,25 @@ video {
   display: none;
 }
 
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+a, button {
+  color: inherit;
+  text-decoration: inherit;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+a:focus, button:focus {
+  outline: none;
+}
+
 .static {
   position: static;
 }
@@ -1520,10 +1539,6 @@ video {
   background-color: rgb(250 175 0 / var(--tw-bg-opacity, 1));
 }
 
-.p-0 {
-  padding: 0px;
-}
-
 .p-12 {
   padding: 3rem;
 }
@@ -1977,18 +1992,9 @@ video {
           text-decoration-line: underline;
 }
 
-.no-underline {
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
-}
-
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.outline {
-  outline-style: solid;
 }
 
 .blur {
@@ -2002,5 +2008,37 @@ video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.font-\[\'Inter-Regular\'\2c _sans-serif\],
+.font-\[\'Inter-Bold\'\2c _sans-serif\],
+.font-\[\'Inter-SemiBold\'\2c _sans-serif\] {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.font-\[\'Montserrat-Regular\'\2c _sans-serif\],
+.font-\[\'Montserrat-Bold\'\2c _sans-serif\],
+.font-\[\'Montserrat-Black\'\2c _sans-serif\],
+.font-\[\'Montserrat-SemiBold\'\2c _sans-serif\],
+.font-\[\'Montserrat-ExtraBold\'\2c _sans-serif\] {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.font-\[\'Poppins-Regular\'\2c _sans-serif\],
+.font-\[\'Poppins-SemiBold\'\2c _sans-serif\],
+.font-\[\'Poppins-ExtraBold\'\2c _sans-serif\] {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.font-\[\'Roboto-Bold\'\2c _sans-serif\] {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.font-\[\'MaterialIcons-Regular\'\2c _sans-serif\] {
+  font-family: 'Material Icons', sans-serif !important;
+}
+
+.font-font-family-body {
+  font-family: 'Red Hat Display', sans-serif !important;
 }
       

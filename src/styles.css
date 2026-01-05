@@ -3,4 +3,75 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+
+  a, button {
+    color: inherit;
+    text-decoration: inherit;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  a:focus, button:focus {
+    outline: none;
+  }
+}
+
+@layer utilities {
+  .interactive-reset {
+    appearance: none;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    text-decoration: none;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .interactive-reset:focus {
+    outline: none;
+  }
+}
+
+.font-\[\'Inter-Regular\'\2c _sans-serif\],
+.font-\[\'Inter-Bold\'\2c _sans-serif\],
+.font-\[\'Inter-SemiBold\'\2c _sans-serif\] {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.font-\[\'Montserrat-Regular\'\2c _sans-serif\],
+.font-\[\'Montserrat-Bold\'\2c _sans-serif\],
+.font-\[\'Montserrat-Black\'\2c _sans-serif\],
+.font-\[\'Montserrat-SemiBold\'\2c _sans-serif\],
+.font-\[\'Montserrat-ExtraBold\'\2c _sans-serif\] {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.font-\[\'Poppins-Regular\'\2c _sans-serif\],
+.font-\[\'Poppins-SemiBold\'\2c _sans-serif\],
+.font-\[\'Poppins-ExtraBold\'\2c _sans-serif\] {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.font-\[\'Roboto-Bold\'\2c _sans-serif\] {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.font-\[\'MaterialIcons-Regular\'\2c _sans-serif\] {
+  font-family: 'Material Icons', sans-serif !important;
+}
+
+.font-font-family-body {
+  font-family: 'Red Hat Display', sans-serif !important;
+}
       

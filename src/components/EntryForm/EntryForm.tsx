@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { ButtonProperty1Active } from "../../ButtonProperty1Active/ButtonProperty1Active";
-import { CheckboxV3StateUnchecked } from "../../CheckboxV3StateUnchecked/CheckboxV3StateUnchecked";
-import { ToggleStateOff } from "../../ToggleStateOff/ToggleStateOff";
 
 export interface IEntryFormProps {
   className?: string;
@@ -172,17 +170,16 @@ export const EntryForm = ({
           <div className="bg-neutral-400 rounded-[20px] shrink-0 w-0.5 h-7 absolute right-1 top-[46px]" />
         </div>
       </div>
-      <button
+      <div
         onClick={handleSubmit}
-        className="bg-transparent border-0 p-0 cursor-pointer"
-        style={{ outline: "none" }}
+        className="cursor-pointer"
       >
         <ButtonProperty1Active
           text="Enter Now to Win the Truck or $40K!"
           property1="active"
           className="!shrink-0"
         />
-      </button>
+      </div>
       <div className="flex flex-row gap-[3.41px] items-center justify-start shrink-0 relative">
         <div className="text-neutral-300 text-center font-['MaterialIcons-Regular',_sans-serif] text-[11.378402709960938px] leading-[11.38px] font-normal relative">
           lock
