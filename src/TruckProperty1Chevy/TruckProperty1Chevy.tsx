@@ -18,7 +18,7 @@ export const TruckProperty1Chevy = ({
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % truckImages.length);
-    }, 3000);
+    }, 1500);
 
     return () => clearInterval(interval);
   }, []);
@@ -33,7 +33,7 @@ export const TruckProperty1Chevy = ({
       {truckImages.map((src, index) => (
         <img
           key={src}
-          className={`w-full h-auto transition-opacity duration-1000 ${
+          className={`w-full h-auto transition-opacity duration-500 ${
             index === 0 ? "" : "absolute inset-0"
           } ${index === activeIndex ? "opacity-100" : "opacity-0"}`}
           src={src}
