@@ -588,13 +588,13 @@ export const GiveawayDesktop = ({
                 </div>
               </div>
               <img
-                className="rounded-none w-[348.65px] h-[373.66px] absolute left-[348.65px] top-0 overflow-visible"
-                src="mask0.svg"
-              />
-              <img
-                className="w-[348.65px] h-[373.66px] absolute left-0 top-0"
+                className="w-[348.65px] h-[373.66px] absolute left-0 top-0 rounded-2xl"
                 style={{ objectFit: "cover" }}
                 src="rectangle-60.png"
+              />
+              <img
+                className="rounded-none w-[348.65px] h-[373.66px] absolute left-0 top-0 overflow-visible z-[1]"
+                src="mask0.svg"
               />
             </div>
             <div className="self-stretch flex-1 static">
@@ -629,13 +629,13 @@ export const GiveawayDesktop = ({
                 </div>
               </div>
               <img
-                className="rounded-none w-[348.66px] h-[373.66px] absolute left-[785.99px] top-0 overflow-visible"
-                src="mask1.svg"
-              />
-              <img
-                className="w-[348.66px] h-[373.66px] absolute left-[437.34px] top-0"
+                className="w-[348.66px] h-[373.66px] absolute left-[437.34px] top-0 rounded-2xl"
                 style={{ objectFit: "cover" }}
                 src="rectangle-61.png"
+              />
+              <img
+                className="rounded-none w-[348.66px] h-[373.66px] absolute left-[437.34px] top-0 overflow-visible z-[1]"
+                src="mask1.svg"
               />
             </div>
             <div className="self-stretch flex-1 static">
@@ -655,13 +655,13 @@ export const GiveawayDesktop = ({
                 </div>
               </div>
               <img
-                className="rounded-none w-[348.66px] h-[373.66px] absolute left-[1223.32px] top-0 overflow-visible"
-                src="mask2.svg"
-              />
-              <img
-                className="w-[348.66px] h-[373.66px] absolute left-[874.67px] top-0"
+                className="w-[348.66px] h-[373.66px] absolute left-[874.67px] top-0 rounded-2xl"
                 style={{ objectFit: "cover" }}
                 src="rectangle-62.png"
+              />
+              <img
+                className="rounded-none w-[348.66px] h-[373.66px] absolute left-[874.67px] top-0 overflow-visible z-[1]"
+                src="mask2.svg"
               />
             </div>
           </div>

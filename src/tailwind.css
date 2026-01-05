@@ -657,10 +657,6 @@ a:focus, button:focus {
   left: 1009.19px;
 }
 
-.left-\[1223\.32px\] {
-  left: 1223.32px;
-}
-
 .left-\[1225px\] {
   left: 1225px;
 }
@@ -697,10 +693,6 @@ a:focus, button:focus {
   left: 31.67%;
 }
 
-.left-\[348\.65px\] {
-  left: 348.65px;
-}
-
 .left-\[36\.04px\] {
   left: 36.04px;
 }
@@ -719,10 +711,6 @@ a:focus, button:focus {
 
 .left-\[7\.06px\] {
   left: 7.06px;
-}
-
-.left-\[785\.99px\] {
-  left: 785.99px;
 }
 
 .left-\[8\.72\%\] {
@@ -859,6 +847,10 @@ a:focus, button:focus {
 
 .z-10 {
   z-index: 10;
+}
+
+.z-\[1\] {
+  z-index: 1;
 }
 
 .flex {
