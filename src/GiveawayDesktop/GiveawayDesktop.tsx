@@ -52,26 +52,17 @@ export const GiveawayDesktop = ({
               <div className="flex flex-col items-start justify-between self-stretch shrink-0 w-[482px] relative">
                 <div className="pt-10 pl-12 flex flex-col gap-8 items-start justify-start w-[100%] shrink-0 max-w-paragraph-max-width relative">
                   <div
-                    className="text-left font-['-',_sans-serif] text-[40px] leading-none font-normal uppercase relative self-stretch"
+                    className="text-left font-['Montserrat-Black',_sans-serif] text-[40px] leading-[1.1] font-black uppercase relative self-stretch"
                     style={{ letterSpacing: "-0.02em" }}
                   >
-                    <span>
-                      <span className="your-shot-at-40-000-cash-or-a-brand-new-truck-starts-right-here-span">
-                        Your Shot at
-                      </span>
-                      <span className="your-shot-at-40-000-cash-or-a-brand-new-truck-starts-right-here-span2">
-                        $40,000 Cash
-                      </span>
-                      <span className="your-shot-at-40-000-cash-or-a-brand-new-truck-starts-right-here-span">
-                        or a
-                      </span>
-                      <span className="your-shot-at-40-000-cash-or-a-brand-new-truck-starts-right-here-span2">
-                        Brand-New Truck
-                      </span>
-                      <span className="your-shot-at-40-000-cash-or-a-brand-new-truck-starts-right-here-span">
-                        Starts Right Here
-                      </span>
-                    </span>{" "}
+                    <span className="text-neutral-white">Your Shot at</span>
+                    <br />
+                    <span className="text-blue-700">$40,000 Cash </span>
+                    <span className="text-neutral-white">or a</span>
+                    <br />
+                    <span className="text-blue-700">Brand-New Truck</span>
+                    <br />
+                    <span className="text-neutral-white">Starts Right Here</span>
                   </div>
                   <div className="flex flex-col gap-6 items-start justify-start self-stretch shrink-0 relative">
                     <div className="text-neutral-950 text-left font-['Poppins-Regular',_sans-serif] text-base leading-normal font-normal relative self-stretch flex items-center justify-start">

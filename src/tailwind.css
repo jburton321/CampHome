@@ -1716,10 +1716,6 @@ a:focus, button:focus {
   text-align: center;
 }
 
-.font-\[\'-\'\2c _sans-serif\] {
-  font-family: '-', sans-serif;
-}
-
 .font-\[\'Inter-Bold\'\2c _sans-serif\] {
   font-family: 'Inter-Bold', sans-serif;
 }
@@ -1857,6 +1853,10 @@ a:focus, button:focus {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.leading-\[1\.1\] {
+  line-height: 1.1;
 }
 
 .leading-\[11\.38px\] {
