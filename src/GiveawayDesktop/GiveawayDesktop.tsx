@@ -190,7 +190,7 @@ export const GiveawayDesktop = ({
               </div>
             </div>
           </div>
-          <div className="bg-blue-50 rounded-xl pt-20 pr-8 pb-20 pl-8 flex flex-col gap-8 items-center justify-start shrink-0 relative">
+          <div className="rounded-xl pt-20 pr-8 pb-20 pl-8 flex flex-col gap-8 items-center justify-start shrink-0 relative">
             <img
               className="rounded-xl flex flex-row gap-2.5 items-center justify-start shrink-0 w-20 h-20 relative"
               style={{ objectFit: "cover", aspectRatio: "1" }}
@@ -337,7 +337,7 @@ export const GiveawayDesktop = ({
       </div>
       <div className="p-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
         <div className="bg-grey-10 rounded-[20px] p-16 flex flex-row gap-12 items-center justify-center self-stretch shrink-0 relative">
-          <div className="bg-blue-50 rounded-xl flex flex-col gap-8 items-start justify-start shrink-0 w-[500px] max-w-[500px] relative">
+          <div className="rounded-xl flex flex-col gap-8 items-start justify-start shrink-0 w-[500px] max-w-[500px] relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
                 className="text-orange-400 text-left font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative self-stretch"
@@ -511,7 +511,7 @@ export const GiveawayDesktop = ({
                 millions in prizes.{" "}
               </div>
             </div>
-            <div className="bg-blue-50 rounded-xl flex flex-col gap-3 items-start justify-start self-stretch shrink-0 relative">
+            <div className="rounded-xl flex flex-col gap-3 items-start justify-start self-stretch shrink-0 relative">
               <div className="flex flex-row gap-3 items-center justify-start self-stretch shrink-0 relative">
                 <img
                   className="rounded-xl flex flex-row gap-2.5 items-center justify-start shrink-0 w-8 h-8 relative"
@@ -528,7 +528,7 @@ export const GiveawayDesktop = ({
                 Adventures Inc., Venture Out Resorts, and Ocean Canyon Resorts).{" "}
               </div>
             </div>
-            <div className="bg-blue-50 rounded-xl flex flex-col gap-3 items-start justify-start self-stretch shrink-0 relative">
+            <div className="rounded-xl flex flex-col gap-3 items-start justify-start self-stretch shrink-0 relative">
               <div className="flex flex-row gap-3 items-center justify-start self-stretch shrink-0 relative">
                 <img
                   className="rounded-xl flex flex-row gap-2.5 items-center justify-start shrink-0 w-8 h-8 relative"
@@ -556,7 +556,7 @@ export const GiveawayDesktop = ({
               "linear-gradient(52.79deg, rgba(254, 120, 0, 1.00) 0%,rgba(255, 220, 110, 1.00) 100%)",
           }}
         >
-          <div className="bg-blue-50 rounded-xl flex flex-col gap-8 items-start justify-start shrink-0 relative">
+          <div className="rounded-xl flex flex-col gap-8 items-start justify-start shrink-0 relative">
             <div
               className="text-center font-['Montserrat-Black',_sans-serif] text-3xl leading-none font-black uppercase relative self-stretch"
               style={{ letterSpacing: "-0.02em" }}
@@ -689,7 +689,7 @@ export const GiveawayDesktop = ({
       </div>
       <div id="deals" className="pt-6 pr-12 pb-8 pl-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
         <div className="bg-grey-10 rounded-[20px] pt-16 pb-16 pl-12 flex flex-row gap-16 items-end justify-center self-stretch shrink-0 relative">
-          <div className="bg-blue-50 rounded-xl flex flex-col gap-8 items-start justify-start shrink-0 w-[500px] max-w-[500px] relative">
+          <div className="rounded-xl flex flex-col gap-8 items-start justify-start shrink-0 w-[500px] max-w-[500px] relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
                 className="text-orange-400 text-left font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative self-stretch"

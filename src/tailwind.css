@@ -1468,10 +1468,6 @@ a:focus, button:focus {
   background-color: rgba(255,255,255,0.20);
 }
 
-.bg-blue-50 {
-  background-color: var(--blue-50, #e0eaf6);
-}
-
 .bg-blue-900 {
   background-color: var(--blue-900, #0a2c55);
 }
