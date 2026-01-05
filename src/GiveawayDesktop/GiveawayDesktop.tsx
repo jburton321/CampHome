@@ -153,7 +153,7 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="bg-green-500 border-solid border-yellow-500 border-4 pt-[88px] pr-12 pb-[88px] pl-12 flex flex-col gap-20 items-center justify-center self-stretch shrink-0 relative">
+      <div className="pt-[88px] pr-12 pb-[88px] pl-12 flex flex-col gap-20 items-center justify-center self-stretch shrink-0 relative">
         <div className="flex flex-row items-center justify-between self-stretch shrink-0 relative">
           <div
             className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between flex-1 h-[451.93px] relative overflow-hidden"
@@ -255,59 +255,84 @@ export const GiveawayDesktop = ({
         src="frame-19840779200.png"
       />
       <div
-        className="pr-8 pl-8 flex flex-row gap-5 items-center justify-center shrink-0 relative overflow-hidden"
+        className="shrink-0 relative overflow-hidden self-stretch"
         style={{
-          width: "1440px",
           height: "80px",
           background:
             "linear-gradient(90deg, rgba(255, 171, 0, 1.00) 0%,rgba(255, 97, 0, 1.00) 100%)",
         }}
       >
-        <div
-          className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0"
-          style={{
-            width: "466px",
-            height: "40px",
-            letterSpacing: "0.05em",
-            border: "1.6px solid #ffffff",
-          }}
-        >
-          Enter Now to Win{" "}
-        </div>
-        <img
-          className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
-          src="group-280.svg"
-        />
-        <div
-          className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0"
-          style={{ width: "621px", height: "40px", letterSpacing: "0.05em" }}
-        >
-          No purchase necessary{" "}
-        </div>
-        <img
-          className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
-          src="group-290.svg"
-        />
-        <div
-          className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0"
-          style={{
-            width: "466px",
-            height: "40px",
-            letterSpacing: "0.05em",
-            border: "1.6px solid #ffffff",
-          }}
-        >
-          Enter Now to Win{" "}
-        </div>
-        <img
-          className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
-          src="group-300.svg"
-        />
-        <div
-          className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0"
-          style={{ width: "621px", height: "40px", letterSpacing: "0.05em" }}
-        >
-          No purchase necessary{" "}
+        <style>
+          {`
+            @keyframes scroll-banner {
+              0% {
+                transform: translateX(0);
+              }
+              100% {
+                transform: translateX(-50%);
+              }
+            }
+            .scroll-banner-container {
+              display: flex;
+              animation: scroll-banner 20s linear infinite;
+            }
+          `}
+        </style>
+        <div className="scroll-banner-container">
+          <div className="pr-8 pl-8 flex flex-row gap-5 items-center justify-center shrink-0">
+            <div
+              className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0 flex items-center justify-center"
+              style={{
+                width: "466px",
+                height: "40px",
+                letterSpacing: "0.05em",
+                border: "1.6px solid #ffffff",
+              }}
+            >
+              Enter Now to Win
+            </div>
+            <img
+              className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
+              src="group-280.svg"
+            />
+            <div
+              className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0 flex items-center justify-center"
+              style={{ width: "621px", height: "40px", letterSpacing: "0.05em" }}
+            >
+              No purchase necessary
+            </div>
+            <img
+              className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
+              src="group-290.svg"
+            />
+          </div>
+          <div className="pr-8 pl-8 flex flex-row gap-5 items-center justify-center shrink-0">
+            <div
+              className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0 flex items-center justify-center"
+              style={{
+                width: "466px",
+                height: "40px",
+                letterSpacing: "0.05em",
+                border: "1.6px solid #ffffff",
+              }}
+            >
+              Enter Now to Win
+            </div>
+            <img
+              className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
+              src="group-300.svg"
+            />
+            <div
+              className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0 flex items-center justify-center"
+              style={{ width: "621px", height: "40px", letterSpacing: "0.05em" }}
+            >
+              No purchase necessary
+            </div>
+            <img
+              className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
+              src="group-280.svg"
+            />
+          </div>
         </div>
       </div>
       <div className="p-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">

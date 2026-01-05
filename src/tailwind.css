@@ -1408,10 +1408,6 @@ a:focus, button:focus {
   border-width: 2px;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .border-\[1\.5px\] {
   border-width: 1.5px;
 }
@@ -1452,10 +1448,6 @@ a:focus, button:focus {
 
 .border-orange-500 {
   border-color: var(--orange-500, #fe6d00);
-}
-
-.border-yellow-500 {
-  border-color: var(--yellow-500, #faaf00);
 }
 
 .bg-\[\#dffeec\] {
