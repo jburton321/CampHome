@@ -585,7 +585,10 @@ export const GiveawayDesktop = ({
           </div>
           <div className="hidden lg:flex flex-row gap-16 items-start justify-center self-stretch shrink-0 h-[383px] relative">
             <div className="self-stretch flex-1 static">
-              <div className="bg-neutral-white rounded-[10px] p-4 flex flex-col gap-3 items-start justify-center w-[238.81px] h-[43.59px] absolute left-[134.53px] top-[339.41px] z-10">
+              <div
+                className="bg-neutral-white rounded-[10px] p-4 flex flex-col gap-3 items-start justify-center w-[238.81px] h-[43.59px] absolute left-[134.53px] top-[339.41px] z-10"
+                style={{ clipPath: "polygon(0 0, 100% 0, 100% 85%, 0 100%)" }}
+              >
                 <div className="flex flex-row gap-2 items-center justify-start self-stretch shrink-0 relative">
                   <img
                     className="shrink-0 w-6 h-6 relative overflow-visible"
