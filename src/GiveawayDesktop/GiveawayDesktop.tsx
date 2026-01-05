@@ -260,7 +260,7 @@ export const GiveawayDesktop = ({
         src="frame-19840779200.png"
       />
       <div
-        className="shrink-0 relative overflow-hidden self-stretch"
+        className="shrink-0 relative overflow-hidden self-stretch flex items-center"
         style={{
           height: "80px",
           background:
