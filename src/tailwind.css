@@ -861,6 +861,10 @@ a:focus, button:focus {
   order: 2;
 }
 
+.-mb-4 {
+  margin-bottom: -1rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -1037,8 +1041,8 @@ a:focus, button:focus {
   min-height: 41px;
 }
 
-.\!w-\[388\.95px\] {
-  width: 388.95px !important;
+.\!w-\[280px\] {
+  width: 280px !important;
 }
 
 .w-0\.5 {
@@ -1167,6 +1171,10 @@ a:focus, button:focus {
 
 .w-full {
   width: 100%;
+}
+
+.min-w-0 {
+  min-width: 0px;
 }
 
 .min-w-\[300px\] {
@@ -1588,6 +1596,10 @@ a:focus, button:focus {
 
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pb-6 {
@@ -2094,6 +2106,10 @@ a:focus, button:focus {
 
   .lg\:\!w-\[1440px\] {
     width: 1440px !important;
+  }
+
+  .lg\:\!w-\[388\.95px\] {
+    width: 388.95px !important;
   }
 
   .lg\:\!w-\[623px\] {

@@ -724,32 +724,32 @@ export const GiveawayDesktop = ({
               className="!pt-2.5 !pr-12 !pb-2.5 !pl-12 !shrink-0"
             ></ButtonProperty1Active>
           </div>
-          <div className="flex flex-col gap-6 items-start justify-center flex-1 relative overflow-hidden">
+          <div className="flex flex-col gap-6 items-start justify-center flex-1 relative w-full min-w-0">
             <div
               ref={dealsContainerRef}
-              className="flex flex-row gap-6 items-start justify-start self-stretch shrink-0 relative overflow-x-auto scroll-smooth scrollbar-hide"
+              className="flex flex-row gap-4 lg:gap-6 items-start justify-start w-full shrink-0 relative overflow-x-auto scroll-smooth pb-4 -mb-4"
               style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
-              <OffersCardProperty1Default className="!shrink-0 !w-[388.95px]"></OffersCardProperty1Default>
+              <OffersCardProperty1Default className="!shrink-0 !w-[280px] lg:!w-[388.95px]"></OffersCardProperty1Default>
               <OffersCardProperty1Default
                 location="Mount Pleasant, Michigan"
                 resort="Mount Pleasant Resort"
-                className="!shrink-0 !w-[388.95px]"
+                className="!shrink-0 !w-[280px] lg:!w-[388.95px]"
               ></OffersCardProperty1Default>
               <OffersCardProperty1Default
                 location="Kalamazoo, Michigan"
                 resort="Kalamazoo Resort"
-                className="!shrink-0 !w-[388.95px]"
+                className="!shrink-0 !w-[280px] lg:!w-[388.95px]"
               ></OffersCardProperty1Default>
               <OffersCardProperty1Default
                 location="Glen Rose, Texas"
                 resort="Tres Rios RV Resort"
-                className="!shrink-0 !w-[388.95px]"
+                className="!shrink-0 !w-[280px] lg:!w-[388.95px]"
               ></OffersCardProperty1Default>
               <OffersCardProperty1Default
                 location="Wapakoneta, Ohio"
                 resort="Arrowhead Lakes"
-                className="!shrink-0 !w-[388.95px]"
+                className="!shrink-0 !w-[280px] lg:!w-[388.95px]"
               ></OffersCardProperty1Default>
             </div>
             <div className="flex flex-row gap-8 items-start justify-start shrink-0 relative">
