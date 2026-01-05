@@ -255,18 +255,21 @@ export const GiveawayDesktop = ({
         src="frame-19840779200.png"
       />
       <div
-        className="pt-5 pr-8 pb-5 pl-8 flex flex-row gap-5 items-center justify-center self-stretch shrink-0 relative overflow-hidden"
+        className="pr-8 pl-8 flex flex-row gap-5 items-center justify-center shrink-0 relative overflow-hidden"
         style={{
+          width: "1440px",
+          height: "80px",
           background:
             "linear-gradient(90deg, rgba(255, 171, 0, 1.00) 0%,rgba(255, 97, 0, 1.00) 100%)",
         }}
       >
         <div
-          className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative"
+          className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0"
           style={{
+            width: "466px",
+            height: "40px",
             letterSpacing: "0.05em",
-            webkitTextStroke:
-              "1.600000023841858px var(--neutral-white, #ffffff)",
+            border: "1.6px solid #ffffff",
           }}
         >
           Enter Now to Win{" "}
@@ -276,8 +279,8 @@ export const GiveawayDesktop = ({
           src="group-280.svg"
         />
         <div
-          className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative"
-          style={{ letterSpacing: "0.05em" }}
+          className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0"
+          style={{ width: "621px", height: "40px", letterSpacing: "0.05em" }}
         >
           No purchase necessary{" "}
         </div>
@@ -286,11 +289,12 @@ export const GiveawayDesktop = ({
           src="group-290.svg"
         />
         <div
-          className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative"
+          className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0"
           style={{
+            width: "466px",
+            height: "40px",
             letterSpacing: "0.05em",
-            webkitTextStroke:
-              "1.600000023841858px var(--neutral-white, #ffffff)",
+            border: "1.6px solid #ffffff",
           }}
         >
           Enter Now to Win{" "}
@@ -300,8 +304,8 @@ export const GiveawayDesktop = ({
           src="group-300.svg"
         />
         <div
-          className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative"
-          style={{ letterSpacing: "0.05em" }}
+          className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0"
+          style={{ width: "621px", height: "40px", letterSpacing: "0.05em" }}
         >
           No purchase necessary{" "}
         </div>
