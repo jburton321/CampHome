@@ -103,7 +103,7 @@ export const Footer = ({ className, ...props }: IFooterProps): JSX.Element => {
             <img
               className="shrink-0 w-40 h-[121px] relative"
               style={{ objectFit: "cover", aspectRatio: "160/121" }}
-              src="https://images.pexels.com/photos/592753/pexels-photo-592753.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src="image-20.png"
             />
             <div className="flex flex-col gap-3 items-start justify-center shrink-0 relative">
               <div className="flex flex-row gap-2 items-center justify-start shrink-0 relative">

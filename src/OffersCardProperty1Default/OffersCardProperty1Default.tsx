@@ -37,7 +37,7 @@ export const OffersCardProperty1Default = ({
       <div
         className="pt-2.5 pb-3 flex flex-col items-center justify-between self-stretch shrink-0 h-[180px] relative"
         style={{
-          background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 0.60) 100%), url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=600) center",
+          background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 0.60) 100%), url(frame-376740.png) center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}

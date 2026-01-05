@@ -163,7 +163,7 @@ export const GiveawayDesktop = ({
               borderImageSlice: "1",
               boxShadow:
                 "var(--big-card-right-shadow-box-shadow,  20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
-              background: "linear-gradient(to left, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%,rgba(255, 255, 255, 0.00) 49.76579546928406%), url(https://images.pexels.com/photos/2533092/pexels-photo-2533092.jpeg?auto=compress&cs=tinysrgb&w=800) center",
+              background: "linear-gradient(to left, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%,rgba(255, 255, 255, 0.00) 49.76579546928406%), url(case-study-card0.png) center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
@@ -194,7 +194,7 @@ export const GiveawayDesktop = ({
             <img
               className="rounded-xl flex flex-row gap-2.5 items-center justify-start shrink-0 w-20 h-20 relative"
               style={{ objectFit: "cover", aspectRatio: "1" }}
-              src="https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=200"
+              src="frame-80.png"
             />
             <div className="flex flex-col gap-2.5 items-center justify-start self-stretch shrink-0 relative">
               <div
@@ -222,7 +222,7 @@ export const GiveawayDesktop = ({
               borderImageSlice: "1",
               boxShadow:
                 "var(--big-card-left-shadow-box-shadow,  -20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
-              background: "linear-gradient(180deg, rgba(7, 29, 54, 1.00) 0%,rgba(255, 255, 255, 0.00) 46.79989814758301%,rgba(7, 29, 54, 1.00) 100%), url(https://images.pexels.com/photos/4386476/pexels-photo-4386476.jpeg?auto=compress&cs=tinysrgb&w=800) center",
+              background: "linear-gradient(180deg, rgba(7, 29, 54, 1.00) 0%,rgba(255, 255, 255, 0.00) 46.79989814758301%,rgba(7, 29, 54, 1.00) 100%), url(case-study-card1.png) center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
@@ -252,7 +252,7 @@ export const GiveawayDesktop = ({
       <img
         className="flex flex-col gap-2.5 items-center justify-start self-stretch shrink-0 h-[427px] relative"
         style={{ objectFit: "cover" }}
-        src="https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        src="frame-19840779200.png"
       />
       <div
         className="pt-5 pr-8 pb-5 pl-8 flex flex-row gap-5 items-center justify-center self-stretch shrink-0 relative overflow-hidden"
@@ -444,7 +444,7 @@ export const GiveawayDesktop = ({
                   "var(--big-card-left-shadow-box-shadow,  -20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
                 objectFit: "cover",
               }}
-              src="https://images.pexels.com/photos/6271625/pexels-photo-6271625.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="rectangle-30.png"
             />
             <img
               className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-0 top-[150.93px]"
@@ -453,7 +453,7 @@ export const GiveawayDesktop = ({
                   "var(--big-card-right-shadow-box-shadow,  20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
                 objectFit: "cover",
               }}
-              src="https://images.pexels.com/photos/5364961/pexels-photo-5364961.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="rectangle-40.png"
             />
           </div>
           <div className="flex flex-col gap-8 items-start justify-start flex-1 relative">
@@ -487,7 +487,7 @@ export const GiveawayDesktop = ({
                 <img
                   className="rounded-xl flex flex-row gap-2.5 items-center justify-start shrink-0 w-8 h-8 relative"
                   style={{ objectFit: "cover", aspectRatio: "1" }}
-                  src="https://images.pexels.com/photos/7176026/pexels-photo-7176026.jpeg?auto=compress&cs=tinysrgb&w=100"
+                  src="frame-81.png"
                 />
                 <div className="text-blue-700 text-left font-['Poppins-SemiBold',_sans-serif] text-xl leading-normal font-semibold uppercase relative flex items-center justify-start">
                   100% Legit. Zero Pressure.{" "}
@@ -504,7 +504,7 @@ export const GiveawayDesktop = ({
                 <img
                   className="rounded-xl flex flex-row gap-2.5 items-center justify-start shrink-0 w-8 h-8 relative"
                   style={{ objectFit: "cover", aspectRatio: "1" }}
-                  src="https://images.pexels.com/photos/8867482/pexels-photo-8867482.jpeg?auto=compress&cs=tinysrgb&w=100"
+                  src="frame-82.png"
                 />
                 <div className="text-blue-700 text-left font-['Poppins-SemiBold',_sans-serif] text-xl leading-normal font-semibold uppercase relative flex items-center justify-start">
                   Transparent &amp; Straightforward.{" "}
@@ -574,7 +574,7 @@ export const GiveawayDesktop = ({
               <img
                 className="w-[348.65px] h-[373.66px] absolute left-0 top-0"
                 style={{ objectFit: "cover" }}
-                src="https://images.pexels.com/photos/1835927/pexels-photo-1835927.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="rectangle-60.png"
               />
             </div>
             <div className="self-stretch flex-1 static">
@@ -615,7 +615,7 @@ export const GiveawayDesktop = ({
               <img
                 className="w-[348.66px] h-[373.66px] absolute left-[437.34px] top-0"
                 style={{ objectFit: "cover" }}
-                src="https://images.pexels.com/photos/1683975/pexels-photo-1683975.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="rectangle-61.png"
               />
             </div>
             <div className="self-stretch flex-1 static">
@@ -641,7 +641,7 @@ export const GiveawayDesktop = ({
               <img
                 className="w-[348.66px] h-[373.66px] absolute left-[874.67px] top-0"
                 style={{ objectFit: "cover" }}
-                src="https://images.pexels.com/photos/1231230/pexels-photo-1231230.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="rectangle-62.png"
               />
             </div>
           </div>
@@ -760,7 +760,7 @@ export const GiveawayDesktop = ({
                   "var(--big-card-left-shadow-box-shadow,  -20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
                 objectFit: "cover",
               }}
-              src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="rectangle-31.png"
             />
             <img
               className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-0 top-[150.93px]"
@@ -769,7 +769,7 @@ export const GiveawayDesktop = ({
                   "var(--big-card-right-shadow-box-shadow,  20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
                 objectFit: "cover",
               }}
-              src="https://images.pexels.com/photos/1309586/pexels-photo-1309586.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="rectangle-41.png"
             />
           </div>
           <div className="flex flex-col gap-8 items-start justify-start flex-1 relative">
