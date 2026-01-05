@@ -2092,6 +2092,10 @@ a:focus, button:focus {
     display: flex;
   }
 
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:h-\[407px\] {
     height: 407px;
   }

@@ -85,7 +85,7 @@ export const GiveawayDesktop = ({
                     </div>
                   </div>
                 </div>
-                <div className="bg-neutral-white rounded-tr-2xl pt-4 lg:pt-6 px-6 lg:px-12 pb-2.5 flex flex-row gap-2.5 items-center justify-center shrink-0 relative">
+                <div className="hidden lg:flex bg-neutral-white rounded-tr-2xl pt-4 lg:pt-6 px-6 lg:px-12 pb-2.5 flex-row gap-2.5 items-center justify-center shrink-0 relative">
                   <div className="text-blue-700 text-left font-['Montserrat-Bold',_sans-serif] text-xl font-bold relative">
                     Sign Up for Your Chance to Win!{" "}
                   </div>
@@ -146,6 +146,11 @@ export const GiveawayDesktop = ({
                     src="group2.svg"
                   />
                 </div>
+              </div>
+            </div>
+            <div className="lg:hidden bg-neutral-white pt-4 px-6 pb-2.5 flex flex-row gap-2.5 items-center justify-center self-stretch relative">
+              <div className="text-blue-700 text-left font-['Montserrat-Bold',_sans-serif] text-xl font-bold relative">
+                Sign Up for Your Chance to Win!{" "}
               </div>
             </div>
             <EntryForm />
