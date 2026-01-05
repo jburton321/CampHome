@@ -11,13 +11,13 @@ export const Footer = ({ className, ...props }: IFooterProps): JSX.Element => {
   return (
     <div
       className={
-        "bg-blue-950 pt-10 pr-12 pb-10 pl-12 flex flex-col gap-6 items-start justify-center relative " +
+        "bg-blue-950 py-8 lg:py-10 px-4 lg:px-12 flex flex-col gap-6 items-start justify-center relative " +
         className
       }
     >
-      <div className="flex flex-row gap-12 items-center justify-start self-stretch shrink-0 relative">
-        <div className="flex flex-col gap-8 items-start justify-center flex-1 relative">
-          <div className="border-solid border-neutral-300 border-b pb-6 flex flex-row gap-0 items-end justify-between self-stretch shrink-0 relative">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-start self-stretch shrink-0 relative">
+        <div className="flex flex-col gap-6 lg:gap-8 items-start justify-center flex-1 relative">
+          <div className="border-solid border-neutral-300 border-b pb-6 flex flex-col sm:flex-row gap-4 sm:gap-0 items-center sm:items-end justify-between self-stretch shrink-0 relative">
             <div className="shrink-0 w-[200px] h-[51.11px] relative overflow-hidden">
               <img
                 className="w-[54.07%] h-[20.65%] absolute right-[0%] left-[45.92%] bottom-[-0.02%] top-[79.37%] overflow-visible"
@@ -72,7 +72,7 @@ export const Footer = ({ className, ...props }: IFooterProps): JSX.Element => {
               </div>
             </div>
           </div>
-          <div className="border-solid border-neutral-300 border-t pt-5 flex flex-row gap-0 items-center justify-between self-stretch shrink-0 min-h-[41px] relative">
+          <div className="border-solid border-neutral-300 border-t pt-5 flex flex-col sm:flex-row gap-4 sm:gap-0 items-center justify-between self-stretch shrink-0 min-h-[41px] relative">
             <div className="text-neutral-white text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start">
               2025 CampNow. All rights reserved.{" "}
             </div>
@@ -89,17 +89,17 @@ export const Footer = ({ className, ...props }: IFooterProps): JSX.Element => {
             </div>
           </div>
         </div>
-        <div className="bg-blue-900 rounded-[20px] pt-8 pr-6 pb-8 pl-6 flex flex-col gap-0 items-start justify-between self-stretch shrink-0 relative">
+        <div className="bg-blue-900 rounded-[20px] p-6 lg:py-8 flex flex-col gap-4 lg:gap-0 items-start justify-between shrink-0 w-full lg:w-auto lg:self-stretch relative">
           <div className="text-neutral-white text-left font-['Poppins-SemiBold',_sans-serif] text-xl leading-normal font-semibold uppercase relative flex items-center justify-start">
             Contact Us{" "}
           </div>
-          <div className="flex flex-row gap-6 items-center justify-start shrink-0 relative">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-center justify-start shrink-0 relative w-full sm:w-auto">
             <img
-              className="shrink-0 w-40 h-[121px] relative"
+              className="hidden sm:block shrink-0 w-40 h-[121px] relative"
               style={{ objectFit: "cover", aspectRatio: "160/121" }}
               src="image-20.png"
             />
-            <div className="flex flex-col gap-3 items-start justify-center shrink-0 relative">
+            <div className="flex flex-col gap-3 items-start justify-center shrink-0 relative w-full sm:w-auto">
               <div className="flex flex-row gap-2 items-center justify-start shrink-0 relative">
                 <img
                   className="shrink-0 w-6 h-6 relative overflow-visible"

@@ -37,7 +37,7 @@ export const GiveawayDesktop = ({
         className
       }
     >
-      <div className="pr-12 pl-12 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
+      <div className="px-4 lg:px-12 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
         <Navbar />
         <div className="flex flex-col items-center justify-start self-stretch shrink-0 relative">
           <div className="shrink-0 w-[300px] h-[159.14px] relative overflow-hidden">
@@ -51,16 +51,16 @@ export const GiveawayDesktop = ({
             style={{ margin: "-60px 0 0 0" }}
           >
             <div
-              className="rounded-3xl pr-8 flex flex-row items-start justify-between self-stretch shrink-0 relative overflow-hidden"
+              className="rounded-3xl px-4 lg:px-0 lg:pr-8 flex flex-col lg:flex-row items-center lg:items-start justify-between self-stretch shrink-0 relative overflow-hidden"
               style={{
                 background:
                   "linear-gradient(52.79deg, rgba(255, 220, 110, 1.00) 0%,rgba(254, 120, 0, 1.00) 100%)",
               }}
             >
-              <div className="flex flex-col items-start justify-between self-stretch shrink-0 w-[482px] relative">
-                <div className="pt-10 pl-12 flex flex-col gap-8 items-start justify-start w-[100%] shrink-0 max-w-paragraph-max-width relative">
+              <div className="flex flex-col items-start justify-between self-stretch shrink-0 w-full lg:w-[482px] relative">
+                <div className="pt-6 lg:pt-10 px-4 lg:pl-12 lg:pr-0 flex flex-col gap-6 lg:gap-8 items-start justify-start w-[100%] shrink-0 max-w-paragraph-max-width relative">
                   <div
-                    className="text-left font-['Montserrat-Black',_sans-serif] text-[40px] leading-[1.1] font-black uppercase relative self-stretch"
+                    className="text-left font-['Montserrat-Black',_sans-serif] text-[28px] lg:text-[40px] leading-[1.1] font-black uppercase relative self-stretch"
                     style={{ letterSpacing: "-0.02em" }}
                   >
                     <span className="text-neutral-white">Your Shot at</span>
@@ -85,7 +85,7 @@ export const GiveawayDesktop = ({
                     </div>
                   </div>
                 </div>
-                <div className="bg-neutral-white rounded-tr-2xl pt-6 pr-12 pb-2.5 pl-12 flex flex-row gap-2.5 items-center justify-center shrink-0 relative">
+                <div className="bg-neutral-white rounded-tr-2xl pt-4 lg:pt-6 px-6 lg:px-12 pb-2.5 flex flex-row gap-2.5 items-center justify-center shrink-0 relative">
                   <div className="text-blue-700 text-left font-['Montserrat-Bold',_sans-serif] text-xl font-bold relative">
                     Sign Up for Your Chance to Win!{" "}
                   </div>
@@ -101,8 +101,8 @@ export const GiveawayDesktop = ({
                   />
                 </div>
               </div>
-              <TruckProperty1Chevy className="!shrink-0 !w-[623px]"></TruckProperty1Chevy>
-              <div className="shrink-0 w-[87.44px] h-[96.12px] static">
+              <TruckProperty1Chevy className="!shrink-0 w-full lg:!w-[623px] max-w-[400px] lg:max-w-none mt-4 lg:mt-0"></TruckProperty1Chevy>
+              <div className="hidden lg:block shrink-0 w-[87.44px] h-[96.12px] static">
                 <div className="w-[86.49px] h-[86.34px] absolute left-[1225px] top-[34px] overflow-hidden">
                   <img
                     className="w-[82.56%] h-[68.61%] absolute right-[8.72%] left-[8.72%] bottom-[16.33%] top-[15.06%] overflow-visible"
@@ -152,10 +152,10 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="pt-[88px] pr-12 pb-[88px] pl-12 flex flex-col gap-20 items-center justify-center self-stretch shrink-0 relative">
-        <div className="flex flex-row items-center justify-between self-stretch shrink-0 relative">
+      <div className="pt-12 lg:pt-[88px] px-4 lg:px-12 pb-12 lg:pb-[88px] flex flex-col gap-10 lg:gap-20 items-center justify-center self-stretch shrink-0 relative">
+        <div className="flex flex-col lg:flex-row items-center justify-between self-stretch shrink-0 relative gap-6 lg:gap-0">
           <div
-            className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between flex-1 h-[451.93px] relative overflow-hidden"
+            className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between w-full lg:flex-1 h-[300px] lg:h-[451.93px] relative overflow-hidden order-1 lg:order-none"
             style={{
               borderImage:
                 "linear-gradient(180deg, rgba(230, 231, 233, 0.50) 0%,rgba(255, 255, 255, 0.80) 49.78649318218231%,rgba(255, 255, 255, 0.30) 100%)",
@@ -189,7 +189,7 @@ export const GiveawayDesktop = ({
               </div>
             </div>
           </div>
-          <div className="rounded-xl pt-20 pr-8 pb-20 pl-8 flex flex-col gap-8 items-center justify-start shrink-0 relative">
+          <div className="rounded-xl py-8 lg:py-20 px-4 lg:px-8 flex flex-col gap-6 lg:gap-8 items-center justify-start shrink-0 relative order-0 lg:order-none">
             <img
               className="rounded-xl flex flex-row gap-2.5 items-center justify-start shrink-0 w-20 h-20 relative"
               style={{ objectFit: "cover", aspectRatio: "1" }}
@@ -214,7 +214,7 @@ export const GiveawayDesktop = ({
             </div>
           </div>
           <div
-            className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between flex-1 h-[451.93px] relative overflow-hidden"
+            className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between w-full lg:flex-1 h-[300px] lg:h-[451.93px] relative overflow-hidden order-2 lg:order-none"
             style={{
               borderImage:
                 "linear-gradient(180deg, rgba(230, 231, 233, 0.50) 0%,rgba(255, 255, 255, 0.80) 49.78649318218231%,rgba(255, 255, 255, 0.30) 100%)",
@@ -334,9 +334,9 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="p-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
-        <div className="bg-grey-10 rounded-[20px] p-16 flex flex-row gap-12 items-center justify-center self-stretch shrink-0 relative">
-          <div className="rounded-xl flex flex-col gap-8 items-start justify-start shrink-0 w-[500px] max-w-[500px] relative">
+      <div className="p-4 lg:p-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
+        <div className="bg-grey-10 rounded-[20px] p-6 lg:p-16 flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center self-stretch shrink-0 relative">
+          <div className="rounded-xl flex flex-col gap-6 lg:gap-8 items-start justify-start shrink-0 w-full lg:w-[500px] lg:max-w-[500px] relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
                 className="text-orange-400 text-left font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative self-stretch"
@@ -366,9 +366,9 @@ export const GiveawayDesktop = ({
               className="!shrink-0"
             ></ButtonProperty1Active>
           </div>
-          <div className="flex flex-row gap-6 items-start justify-start flex-wrap content-start flex-1 relative">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6 items-start justify-start w-full lg:flex-1 relative">
             <div
-              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-[300px] min-w-[300px] relative overflow-hidden"
+              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden"
               style={{ boxShadow: "0px 1px 2px 0px rgba(0, 0, 0, 0.25)" }}
             >
               <div
@@ -391,7 +391,7 @@ export const GiveawayDesktop = ({
               </div>
             </div>
             <div
-              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-[300px] min-w-[300px] relative overflow-hidden"
+              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden"
               style={{ boxShadow: "0px 1px 2px 0px rgba(0, 0, 0, 0.25)" }}
             >
               <div
@@ -414,7 +414,7 @@ export const GiveawayDesktop = ({
               </div>
             </div>
             <div
-              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-[300px] min-w-[300px] relative overflow-hidden"
+              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden"
               style={{ boxShadow: "0px 1px 2px 0px rgba(0, 0, 0, 0.25)" }}
             >
               <div
@@ -437,7 +437,7 @@ export const GiveawayDesktop = ({
               </div>
             </div>
             <div
-              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-[300px] min-w-[300px] relative overflow-hidden"
+              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden"
               style={{ boxShadow: "0px 1px 2px 0px rgba(0, 0, 0, 0.25)" }}
             >
               <div
@@ -462,9 +462,9 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="p-12 flex flex-row gap-[100px] items-center justify-center shrink-0 w-[1440px] max-w-[1440px] relative">
-        <div className="flex flex-row gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
-          <div className="shrink-0 w-[579px] h-[557.93px] relative">
+      <div className="p-4 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full lg:w-[1440px] lg:max-w-[1440px] relative">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
+          <div className="hidden lg:block shrink-0 w-[579px] h-[557.93px] relative">
             <img
               className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-[193px] top-0"
               style={{
@@ -547,9 +547,9 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="pt-6 pr-12 pb-6 pl-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
+      <div className="pt-6 px-4 lg:px-12 pb-6 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
         <div
-          className="rounded-3xl p-12 flex flex-col gap-12 items-center justify-center self-stretch shrink-0 relative"
+          className="rounded-3xl p-6 lg:p-12 flex flex-col gap-8 lg:gap-12 items-center justify-center self-stretch shrink-0 relative"
           style={{
             background:
               "linear-gradient(52.79deg, rgba(254, 120, 0, 1.00) 0%,rgba(255, 220, 110, 1.00) 100%)",
@@ -578,7 +578,7 @@ export const GiveawayDesktop = ({
               </div>
             </div>
           </div>
-          <div className="flex flex-row gap-16 items-start justify-center self-stretch shrink-0 h-[383px] relative">
+          <div className="hidden lg:flex flex-row gap-16 items-start justify-center self-stretch shrink-0 h-[383px] relative">
             <div className="self-stretch flex-1 static">
               <div className="bg-neutral-white rounded-[10px] p-4 flex flex-col gap-3 items-start justify-center w-[238.81px] h-[43.59px] absolute left-[134.53px] top-[339.41px] z-10">
                 <div className="flex flex-row gap-2 items-center justify-start self-stretch shrink-0 relative">
@@ -686,9 +686,9 @@ export const GiveawayDesktop = ({
           ></ButtonProperty1White>
         </div>
       </div>
-      <div className="pt-6 pr-12 pb-8 pl-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
-        <div className="bg-grey-10 rounded-[20px] pt-16 pb-16 pl-12 flex flex-row gap-16 items-end justify-center self-stretch shrink-0 relative">
-          <div className="rounded-xl flex flex-col gap-8 items-start justify-start shrink-0 w-[500px] max-w-[500px] relative">
+      <div className="pt-6 px-4 lg:px-12 pb-8 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
+        <div className="bg-grey-10 rounded-[20px] py-8 lg:py-16 px-4 lg:pl-12 lg:pr-0 flex flex-col lg:flex-row gap-8 lg:gap-16 items-start lg:items-end justify-center self-stretch shrink-0 relative">
+          <div className="rounded-xl flex flex-col gap-6 lg:gap-8 items-start justify-start shrink-0 w-full lg:w-[500px] lg:max-w-[500px] relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
                 className="text-orange-400 text-left font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative self-stretch"
@@ -784,9 +784,9 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="p-12 flex flex-row gap-[100px] items-center justify-center shrink-0 w-[1440px] max-w-[1440px] relative">
-        <div className="flex flex-row gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
-          <div className="shrink-0 w-[579px] h-[557.93px] relative">
+      <div className="p-4 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full lg:w-[1440px] lg:max-w-[1440px] relative">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
+          <div className="hidden lg:block shrink-0 w-[579px] h-[557.93px] relative">
             <img
               className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-[193px] top-0"
               style={{
@@ -806,7 +806,7 @@ export const GiveawayDesktop = ({
               src="rectangle-41.png"
             />
           </div>
-          <div className="flex flex-col gap-8 items-start justify-start flex-1 relative">
+          <div className="flex flex-col gap-6 lg:gap-8 items-start justify-start flex-1 relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
                 className="text-blue-700 text-left font-['Montserrat-Black',_sans-serif] text-3xl leading-none font-black uppercase relative"
@@ -843,7 +843,7 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <Footer className="!shrink-0 !w-[1440px] !max-w-[1440px]" />
+      <Footer className="!shrink-0 w-full lg:!w-[1440px] lg:!max-w-[1440px]" />
     </div>
   );
 };
