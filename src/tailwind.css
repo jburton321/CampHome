@@ -913,6 +913,10 @@ a:focus, button:focus {
   height: 100.03%;
 }
 
+.h-\[100px\] {
+  height: 100px;
+}
+
 .h-\[121px\] {
   height: 121px;
 }
@@ -1389,6 +1393,11 @@ a:focus, button:focus {
   border-radius: 0.75rem;
 }
 
+.rounded-t-full {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
 .rounded-br-2xl {
   border-bottom-right-radius: 1rem;
 }
@@ -1515,6 +1524,11 @@ a:focus, button:focus {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .bg-yellow-500 {
