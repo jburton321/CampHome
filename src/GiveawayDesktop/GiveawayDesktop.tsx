@@ -286,12 +286,11 @@ export const GiveawayDesktop = ({
         <div className="scroll-banner-container">
           <div className="pr-8 pl-8 flex flex-row gap-5 items-center justify-center shrink-0">
             <div
-              className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0 flex items-center justify-center"
+              className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
               style={{
-                width: "466px",
-                height: "40px",
                 letterSpacing: "0.05em",
-                border: "1.6px solid #ffffff",
+                color: "transparent",
+                WebkitTextStroke: "1.6px #ffffff",
               }}
             >
               Enter Now to Win
@@ -301,10 +300,10 @@ export const GiveawayDesktop = ({
               src="group-280.svg"
             />
             <div
-              className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0 flex items-center justify-center"
-              style={{ width: "621px", height: "40px", letterSpacing: "0.05em" }}
+              className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
+              style={{ letterSpacing: "0.05em" }}
             >
-              No purchase necessary
+              No Purchase Necessary
             </div>
             <img
               className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
@@ -313,12 +312,11 @@ export const GiveawayDesktop = ({
           </div>
           <div className="pr-8 pl-8 flex flex-row gap-5 items-center justify-center shrink-0">
             <div
-              className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0 flex items-center justify-center"
+              className="text-center font-['Montserrat-Bold',_sans-serif] text-[40px] leading-none font-bold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
               style={{
-                width: "466px",
-                height: "40px",
                 letterSpacing: "0.05em",
-                border: "1.6px solid #ffffff",
+                color: "transparent",
+                WebkitTextStroke: "1.6px #ffffff",
               }}
             >
               Enter Now to Win
@@ -328,10 +326,10 @@ export const GiveawayDesktop = ({
               src="group-300.svg"
             />
             <div
-              className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0 flex items-center justify-center"
-              style={{ width: "621px", height: "40px", letterSpacing: "0.05em" }}
+              className="text-neutral-white text-center font-['Montserrat-ExtraBold',_sans-serif] text-[40px] leading-none font-extrabold uppercase relative shrink-0 flex items-center justify-center whitespace-nowrap"
+              style={{ letterSpacing: "0.05em" }}
             >
-              No purchase necessary
+              No Purchase Necessary
             </div>
             <img
               className="shrink-0 w-[17.01px] h-[31px] relative overflow-visible"
