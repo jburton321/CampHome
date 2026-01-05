@@ -657,6 +657,10 @@ a:focus, button:focus {
   left: 1009.19px;
 }
 
+.left-\[100px\] {
+  left: 100px;
+}
+
 .left-\[1225px\] {
   left: 1225px;
 }
@@ -675,10 +679,6 @@ a:focus, button:focus {
 
 .left-\[16\.99\%\] {
   left: 16.99%;
-}
-
-.left-\[193px\] {
-  left: 193px;
 }
 
 .left-\[20\.39\%\] {
@@ -789,12 +789,12 @@ a:focus, button:focus {
   top: 101px;
 }
 
-.top-\[15\.06\%\] {
-  top: 15.06%;
+.top-\[120px\] {
+  top: 120px;
 }
 
-.top-\[150\.93px\] {
-  top: 150.93px;
+.top-\[15\.06\%\] {
+  top: 15.06%;
 }
 
 .top-\[16\.75\%\] {
@@ -937,6 +937,10 @@ a:focus, button:focus {
   height: 20.65%;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
 .h-\[22px\] {
   height: 22px;
 }
@@ -957,16 +961,16 @@ a:focus, button:focus {
   height: 31px;
 }
 
+.h-\[320px\] {
+  height: 320px;
+}
+
 .h-\[373\.66px\] {
   height: 373.66px;
 }
 
 .h-\[383px\] {
   height: 383px;
-}
-
-.h-\[407px\] {
-  height: 407px;
 }
 
 .h-\[427px\] {
@@ -987,10 +991,6 @@ a:focus, button:focus {
 
 .h-\[51\.4\%\] {
   height: 51.4%;
-}
-
-.h-\[557\.93px\] {
-  height: 557.93px;
 }
 
 .h-\[6\.95\%\] {
@@ -1089,6 +1089,10 @@ a:focus, button:focus {
   width: 17.01px;
 }
 
+.w-\[180px\] {
+  width: 180px;
+}
+
 .w-\[18px\] {
   width: 18px;
 }
@@ -1099,6 +1103,10 @@ a:focus, button:focus {
 
 .w-\[238\.81px\] {
   width: 238.81px;
+}
+
+.w-\[280px\] {
+  width: 280px;
 }
 
 .w-\[300px\] {
@@ -1117,20 +1125,12 @@ a:focus, button:focus {
   width: 37%;
 }
 
-.w-\[386px\] {
-  width: 386px;
-}
-
 .w-\[47\.4\%\] {
   width: 47.4%;
 }
 
 .w-\[54\.07\%\] {
   width: 54.07%;
-}
-
-.w-\[579px\] {
-  width: 579px;
 }
 
 .w-\[60\.12\%\] {
@@ -2056,6 +2056,14 @@ a:focus, button:focus {
 }
 
 @media (min-width: 1024px) {
+  .lg\:left-\[193px\] {
+    left: 193px;
+  }
+
+  .lg\:top-\[150\.93px\] {
+    top: 150.93px;
+  }
+
   .lg\:order-none {
     order: 0;
   }
@@ -2072,8 +2080,16 @@ a:focus, button:focus {
     display: flex;
   }
 
+  .lg\:h-\[407px\] {
+    height: 407px;
+  }
+
   .lg\:h-\[451\.93px\] {
     height: 451.93px;
+  }
+
+  .lg\:h-\[557\.93px\] {
+    height: 557.93px;
   }
 
   .lg\:\!w-\[1440px\] {
@@ -2096,12 +2112,20 @@ a:focus, button:focus {
     width: 300px;
   }
 
+  .lg\:w-\[386px\] {
+    width: 386px;
+  }
+
   .lg\:w-\[482px\] {
     width: 482px;
   }
 
   .lg\:w-\[500px\] {
     width: 500px;
+  }
+
+  .lg\:w-\[579px\] {
+    width: 579px;
   }
 
   .lg\:w-auto {

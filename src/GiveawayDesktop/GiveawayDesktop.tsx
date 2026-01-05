@@ -464,9 +464,9 @@ export const GiveawayDesktop = ({
       </div>
       <div className="p-4 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full lg:w-[1440px] lg:max-w-[1440px] relative">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
-          <div className="hidden lg:block shrink-0 w-[579px] h-[557.93px] relative">
+          <div className="shrink-0 w-[280px] h-[320px] lg:w-[579px] lg:h-[557.93px] relative">
             <img
-              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-[193px] top-0"
+              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-[100px] lg:left-[193px] top-0"
               style={{
                 boxShadow:
                   "var(--big-card-left-shadow-box-shadow,  -20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
@@ -475,7 +475,7 @@ export const GiveawayDesktop = ({
               src="rectangle-30.png"
             />
             <img
-              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-0 top-[150.93px]"
+              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-0 top-[120px] lg:top-[150.93px]"
               style={{
                 boxShadow:
                   "var(--big-card-right-shadow-box-shadow,  20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
@@ -484,7 +484,7 @@ export const GiveawayDesktop = ({
               src="rectangle-40.png"
             />
           </div>
-          <div className="flex flex-col gap-8 items-start justify-start flex-1 relative">
+          <div className="flex flex-col gap-6 lg:gap-8 items-start justify-start flex-1 relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
                 className="text-blue-700 text-left font-['Montserrat-Black',_sans-serif] text-3xl leading-none font-black uppercase relative"
@@ -786,9 +786,9 @@ export const GiveawayDesktop = ({
       </div>
       <div className="p-4 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full lg:w-[1440px] lg:max-w-[1440px] relative">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
-          <div className="hidden lg:block shrink-0 w-[579px] h-[557.93px] relative">
+          <div className="shrink-0 w-[280px] h-[320px] lg:w-[579px] lg:h-[557.93px] relative">
             <img
-              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-[193px] top-0"
+              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-[100px] lg:left-[193px] top-0"
               style={{
                 boxShadow:
                   "var(--big-card-left-shadow-box-shadow,  -20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
@@ -797,7 +797,7 @@ export const GiveawayDesktop = ({
               src="rectangle-31.png"
             />
             <img
-              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-0 top-[150.93px]"
+              className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[180px] h-[200px] lg:w-[386px] lg:h-[407px] absolute left-0 top-[120px] lg:top-[150.93px]"
               style={{
                 boxShadow:
                   "var(--big-card-right-shadow-box-shadow,  20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
