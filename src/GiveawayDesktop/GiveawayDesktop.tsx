@@ -258,7 +258,7 @@ export const GiveawayDesktop = ({
         className="pt-5 pr-8 pb-5 pl-8 flex flex-row gap-5 items-center justify-center self-stretch shrink-0 relative overflow-hidden"
         style={{
           background:
-            "linear-gradient(90deg, rgba(250, 175, 0, 1.00) 0%,rgba(254, 109, 0, 1.00) 100%)",
+            "linear-gradient(90deg, rgba(255, 171, 0, 1.00) 0%,rgba(255, 97, 0, 1.00) 100%)",
         }}
       >
         <div
@@ -347,7 +347,7 @@ export const GiveawayDesktop = ({
                 className="rounded-tr-2xl rounded-br-2xl p-6 flex flex-row gap-2 items-center justify-center shrink-0 w-20 relative"
                 style={{
                   background:
-                    "linear-gradient(90deg, rgba(250, 175, 0, 1.00) 0%,rgba(254, 109, 0, 1.00) 100%), linear-gradient(to left, #faaf00, #faaf00)",
+                    "linear-gradient(90deg, rgba(255, 171, 0, 1.00) 0%,rgba(255, 97, 0, 1.00) 100%), linear-gradient(to left, #ffab00, #ffab00)",
                 }}
               >
                 <img
@@ -370,7 +370,7 @@ export const GiveawayDesktop = ({
                 className="rounded-tr-2xl rounded-br-2xl p-6 flex flex-row gap-2 items-center justify-center shrink-0 w-20 relative"
                 style={{
                   background:
-                    "linear-gradient(90deg, rgba(250, 175, 0, 1.00) 0%,rgba(254, 109, 0, 1.00) 100%), linear-gradient(to left, #faaf00, #faaf00)",
+                    "linear-gradient(90deg, rgba(255, 171, 0, 1.00) 0%,rgba(255, 97, 0, 1.00) 100%), linear-gradient(to left, #ffab00, #ffab00)",
                 }}
               >
                 <img
@@ -393,7 +393,7 @@ export const GiveawayDesktop = ({
                 className="rounded-tr-2xl rounded-br-2xl p-6 flex flex-row gap-2 items-center justify-center shrink-0 w-20 relative"
                 style={{
                   background:
-                    "linear-gradient(90deg, rgba(250, 175, 0, 1.00) 0%,rgba(254, 109, 0, 1.00) 100%), linear-gradient(to left, #faaf00, #faaf00)",
+                    "linear-gradient(90deg, rgba(255, 171, 0, 1.00) 0%,rgba(255, 97, 0, 1.00) 100%), linear-gradient(to left, #ffab00, #ffab00)",
                 }}
               >
                 <img
@@ -416,7 +416,7 @@ export const GiveawayDesktop = ({
                 className="rounded-tr-2xl rounded-br-2xl p-6 flex flex-row gap-2 items-center justify-center shrink-0 w-20 relative"
                 style={{
                   background:
-                    "linear-gradient(90deg, rgba(250, 175, 0, 1.00) 0%,rgba(254, 109, 0, 1.00) 100%), linear-gradient(to left, #faaf00, #faaf00)",
+                    "linear-gradient(90deg, rgba(255, 171, 0, 1.00) 0%,rgba(255, 97, 0, 1.00) 100%), linear-gradient(to left, #ffab00, #ffab00)",
                 }}
               >
                 <img
