@@ -290,7 +290,8 @@ export const GiveawayDesktop = ({
               style={{
                 letterSpacing: "0.05em",
                 color: "transparent",
-                WebkitTextStroke: "1.6px #ffffff",
+                WebkitTextStroke: "2px #ffffff",
+                paintOrder: "stroke fill",
               }}
             >
               Enter Now to Win
@@ -316,7 +317,8 @@ export const GiveawayDesktop = ({
               style={{
                 letterSpacing: "0.05em",
                 color: "transparent",
-                WebkitTextStroke: "1.6px #ffffff",
+                WebkitTextStroke: "2px #ffffff",
+                paintOrder: "stroke fill",
               }}
             >
               Enter Now to Win
