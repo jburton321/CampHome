@@ -15,7 +15,7 @@ export const ButtonProperty1Active = ({
   return (
     <div
       className={
-        "bg-yellow-500 rounded-[30px] pt-2.5 pr-8 pb-2.5 pl-8 flex flex-row gap-2.5 items-center justify-center relative " +
+        "bg-yellow-500 rounded-[30px] pt-2.5 pr-8 pb-2.5 pl-8 flex flex-row gap-2.5 items-center justify-center relative cursor-pointer transition-all duration-200 hover:brightness-110 hover:scale-[1.02] active:scale-[0.98] " +
         className +
         " " +
         variantsClassName

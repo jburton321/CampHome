@@ -15,7 +15,7 @@ export const ButtonProperty1White = ({
   return (
     <div
       className={
-        "bg-neutral-white rounded-[30px] pt-2.5 pr-8 pb-2.5 pl-8 flex flex-row gap-2.5 items-center justify-center relative " +
+        "bg-neutral-white rounded-[30px] pt-2.5 pr-8 pb-2.5 pl-8 flex flex-row gap-2.5 items-center justify-center relative cursor-pointer transition-all duration-200 hover:bg-gray-100 hover:scale-[1.02] active:scale-[0.98] " +
         className +
         " " +
         variantsClassName
