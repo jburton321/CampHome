@@ -24,7 +24,7 @@ export const OffersCardProperty1Default = ({
   return (
     <div
       className={
-        "bg-neutral-white rounded-2xl flex flex-col gap-0 items-start justify-start w-[300px] min-w-[300px] min-h-[160px] relative overflow-hidden " +
+        "group bg-neutral-white rounded-2xl flex flex-col gap-0 items-start justify-start w-[300px] min-w-[300px] min-h-[160px] relative overflow-hidden transform transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl " +
         className +
         " " +
         variantsClassName
@@ -35,7 +35,7 @@ export const OffersCardProperty1Default = ({
       }}
     >
       <div
-        className="pt-2.5 pb-3 flex flex-col items-center justify-between self-stretch shrink-0 h-[180px] relative"
+        className="pt-2.5 pb-3 flex flex-col items-center justify-between self-stretch shrink-0 h-[180px] relative overflow-hidden"
         style={{
           background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 0.60) 100%), url(frame-376740.png) center",
           backgroundSize: "cover",

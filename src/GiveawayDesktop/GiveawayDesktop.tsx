@@ -378,7 +378,7 @@ export const GiveawayDesktop = ({
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6 items-start justify-start w-full lg:flex-1 relative">
             <div
-              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden"
+              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden transform transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl"
               style={{ boxShadow: "0px 1px 2px 0px rgba(0, 0, 0, 0.25)" }}
             >
               <div
@@ -401,7 +401,7 @@ export const GiveawayDesktop = ({
               </div>
             </div>
             <div
-              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden"
+              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden transform transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl"
               style={{ boxShadow: "0px 1px 2px 0px rgba(0, 0, 0, 0.25)" }}
             >
               <div
@@ -424,7 +424,7 @@ export const GiveawayDesktop = ({
               </div>
             </div>
             <div
-              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden"
+              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden transform transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl"
               style={{ boxShadow: "0px 1px 2px 0px rgba(0, 0, 0, 0.25)" }}
             >
               <div
@@ -447,7 +447,7 @@ export const GiveawayDesktop = ({
               </div>
             </div>
             <div
-              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden"
+              className="bg-neutral-white rounded-2xl flex flex-row gap-0 items-center justify-end shrink-0 w-full lg:w-[300px] lg:min-w-[300px] relative overflow-hidden transform transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl"
               style={{ boxShadow: "0px 1px 2px 0px rgba(0, 0, 0, 0.25)" }}
             >
               <div
@@ -765,7 +765,7 @@ export const GiveawayDesktop = ({
             <div className="flex flex-row gap-8 items-start justify-start shrink-0 relative">
               <div
                 onClick={() => scrollDeals('left')}
-                className="bg-[rgba(255,255,255,0.20)] rounded-[40px] border-solid border-blue-600 border pt-[5px] pr-0.5 pb-[5px] pl-0.5 flex flex-col gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative cursor-pointer"
+                className="bg-[rgba(255,255,255,0.20)] rounded-[40px] border-solid border-blue-600 border pt-[5px] pr-0.5 pb-[5px] pl-0.5 flex flex-col gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative cursor-pointer transition-all duration-300 ease-out hover:bg-blue-600 hover:border-blue-600 active:scale-95"
                 style={{
                   transformOrigin: "0 0",
                   transform: "rotate(0deg) scale(-1, 1)",
@@ -781,7 +781,7 @@ export const GiveawayDesktop = ({
               </div>
               <div
                 onClick={() => scrollDeals('right')}
-                className="bg-[rgba(255,255,255,0.20)] rounded-[40px] border-solid border-blue-600 border pt-[5px] pr-0.5 pb-[5px] pl-0.5 flex flex-col gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative cursor-pointer"
+                className="bg-[rgba(255,255,255,0.20)] rounded-[40px] border-solid border-blue-600 border pt-[5px] pr-0.5 pb-[5px] pl-0.5 flex flex-col gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative cursor-pointer transition-all duration-300 ease-out hover:bg-blue-600 hover:border-blue-600 active:scale-95"
                 style={{ backdropFilter: "blur(15px)", aspectRatio: "1" }}
               >
                 <img

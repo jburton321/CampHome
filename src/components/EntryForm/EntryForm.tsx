@@ -40,55 +40,55 @@ export const EntryForm = ({ className }: IEntryFormProps): JSX.Element => {
       <div className="flex flex-col lg:flex-row gap-4 lg:gap-6 items-start justify-start self-stretch shrink-0 relative">
         <div className="flex flex-col gap-3 lg:gap-4 items-start justify-center flex-1 relative w-full">
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center justify-start self-stretch shrink-0 relative">
-            <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto">
+            <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto transition-all duration-300 ease-out focus-within:border-orange-500 focus-within:ring-2 focus-within:ring-orange-500/20 focus-within:ring-offset-1">
               <input
                 type="text"
                 placeholder="First Name*"
                 value={formData.firstName}
                 onChange={(e) => handleInputChange("firstName", e.target.value)}
-                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none"
+                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
               />
             </div>
-            <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto">
+            <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto transition-all duration-300 ease-out focus-within:border-orange-500 focus-within:ring-2 focus-within:ring-orange-500/20 focus-within:ring-offset-1">
               <input
                 type="text"
                 placeholder="Last Name*"
                 value={formData.lastName}
                 onChange={(e) => handleInputChange("lastName", e.target.value)}
-                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none"
+                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
               />
             </div>
-            <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto">
+            <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto transition-all duration-300 ease-out focus-within:border-orange-500 focus-within:ring-2 focus-within:ring-orange-500/20 focus-within:ring-offset-1">
               <input
                 type="email"
                 placeholder="Email Address*"
                 value={formData.email}
                 onChange={(e) => handleInputChange("email", e.target.value)}
-                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none"
+                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
               />
             </div>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center justify-start self-stretch shrink-0 relative">
-            <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto">
+            <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto transition-all duration-300 ease-out focus-within:border-orange-500 focus-within:ring-2 focus-within:ring-orange-500/20 focus-within:ring-offset-1">
               <input
                 type="tel"
                 placeholder="Phone*"
                 value={formData.phone}
                 onChange={(e) => handleInputChange("phone", e.target.value)}
-                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none"
+                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
               />
             </div>
-            <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto">
+            <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto transition-all duration-300 ease-out focus-within:border-orange-500 focus-within:ring-2 focus-within:ring-orange-500/20 focus-within:ring-offset-1">
               <input
                 type="text"
                 placeholder="Zip Code*"
                 value={formData.zipCode}
                 onChange={(e) => handleInputChange("zipCode", e.target.value)}
-                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none"
+                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
               />
             </div>
             <div
-              className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto cursor-pointer"
+              className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto cursor-pointer transition-all duration-300 ease-out hover:border-orange-300"
               onClick={() => handleInputChange("ownsRV", !formData.ownsRV)}
             >
               <div className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1">
@@ -123,7 +123,7 @@ export const EntryForm = ({ className }: IEntryFormProps): JSX.Element => {
             Before submitting your entry, please agree to the following
           </div>
           <div
-            className="flex flex-row gap-2 items-start justify-start self-stretch shrink-0 relative cursor-pointer"
+            className="flex flex-row gap-2 items-start justify-start self-stretch shrink-0 relative cursor-pointer transition-all duration-300 ease-out hover:opacity-80"
             onClick={() => handleInputChange("consent", !formData.consent)}
           >
             <div className="shrink-0 w-6 h-6 relative">

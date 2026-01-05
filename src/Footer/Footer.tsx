@@ -61,13 +61,13 @@ export const Footer = ({ className, ...props }: IFooterProps): JSX.Element => {
               convenience, and natural beauty.{" "}
             </div>
             <div className="flex flex-row gap-8 items-start justify-start shrink-0 relative">
-              <div className="text-orange-400 text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start">
+              <div className="text-orange-400 text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start cursor-pointer transition-all duration-300 ease-out hover:opacity-70">
                 About Us{" "}
               </div>
-              <div className="text-orange-400 text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start">
+              <div className="text-orange-400 text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start cursor-pointer transition-all duration-300 ease-out hover:opacity-70">
                 RV Resorts{" "}
               </div>
-              <div className="text-orange-400 text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start">
+              <div className="text-orange-400 text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start cursor-pointer transition-all duration-300 ease-out hover:opacity-70">
                 Contact Us{" "}
               </div>
             </div>
@@ -77,13 +77,13 @@ export const Footer = ({ className, ...props }: IFooterProps): JSX.Element => {
               2025 CampNow. All rights reserved.{" "}
             </div>
             <div className="flex flex-row gap-3 items-center justify-center shrink-0 relative">
-              <div className="text-[#539eff] text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start underline">
+              <div className="text-[#539eff] text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start underline cursor-pointer transition-all duration-300 ease-out hover:opacity-70">
                 Terms &amp; Conditions{" "}
               </div>
               <div className="text-neutral-white text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start">
                 |{" "}
               </div>
-              <div className="text-[#539eff] text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start underline">
+              <div className="text-[#539eff] text-left font-['Inter-Regular',_sans-serif] text-sm leading-[21px] font-normal relative flex items-center justify-start underline cursor-pointer transition-all duration-300 ease-out hover:opacity-70">
                 Privacy Policy{" "}
               </div>
             </div>

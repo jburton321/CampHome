@@ -18,22 +18,22 @@ export const Navbar = ({ className }: INavbarProps): JSX.Element => {
         alt="CampNow Logo"
       />
       <div className="hidden lg:flex flex-row gap-8 items-center justify-end shrink-0 relative">
-        <div className="flex flex-row gap-1 items-center justify-center shrink-0 relative border-solid border-orange-500 border-b-2 pb-1">
+        <div className="flex flex-row gap-1 items-center justify-center shrink-0 relative border-solid border-orange-500 border-b-2 pb-1 cursor-pointer transition-all duration-300 ease-out">
           <div className="text-orange-500 text-left font-['Inter-Regular',_sans-serif] text-text-sizes-text-regular leading-normal font-normal uppercase relative">
             Home
           </div>
         </div>
-        <div className="flex flex-row gap-1 items-center justify-center shrink-0 relative">
+        <div className="flex flex-row gap-1 items-center justify-center shrink-0 relative cursor-pointer transition-all duration-300 ease-out hover:opacity-70">
           <div className="text-color-scheme-1-text text-left font-['Inter-Regular',_sans-serif] text-text-sizes-text-regular leading-normal font-normal uppercase relative">
             About Us
           </div>
         </div>
-        <div className="flex flex-row gap-1 items-center justify-center shrink-0 relative">
+        <div className="flex flex-row gap-1 items-center justify-center shrink-0 relative cursor-pointer transition-all duration-300 ease-out hover:opacity-70">
           <div className="text-color-scheme-1-text text-left font-['Inter-Regular',_sans-serif] text-text-sizes-text-regular leading-normal font-normal uppercase relative">
             Deals
           </div>
         </div>
-        <div className="flex flex-row gap-1 items-center justify-center shrink-0 relative">
+        <div className="flex flex-row gap-1 items-center justify-center shrink-0 relative cursor-pointer transition-all duration-300 ease-out hover:opacity-70">
           <div className="text-color-scheme-1-text text-left font-['Inter-Regular',_sans-serif] text-text-sizes-text-regular leading-normal font-normal uppercase relative">
             Contact Us
           </div>
