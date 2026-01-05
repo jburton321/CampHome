@@ -40,10 +40,9 @@ export const GiveawayDesktop = ({
       <div className="px-4 lg:px-12 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
         <Navbar />
         <div className="flex flex-col items-center justify-start self-stretch shrink-0 relative">
-          <div className="shrink-0 w-[300px] h-[159.14px] relative flex items-center justify-center z-50">
-            <div className="absolute bottom-0 w-[280px] h-[100px] bg-white rounded-t-full"></div>
+          <div className="shrink-0 w-[300px] h-[159.14px] relative overflow-hidden flex items-center justify-center z-50">
             <img
-              className="w-full h-auto relative z-10"
+              className="w-full h-auto"
               src="sticker.png"
             />
           </div>
