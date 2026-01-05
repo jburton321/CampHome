@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { ButtonProperty1Active } from "../ButtonProperty1Active/ButtonProperty1Active";
 import { TruckProperty1Chevy } from "../TruckProperty1Chevy/TruckProperty1Chevy";
 import { ButtonProperty1White } from "../ButtonProperty1White/ButtonProperty1White";
@@ -16,6 +16,20 @@ export const GiveawayDesktop = ({
   ...props
 }: IGiveawayDesktopProps): JSX.Element => {
   const [activeSection, setActiveSection] = useState("home");
+  const dealsContainerRef = useRef<HTMLDivElement>(null);
+
+  const scrollDeals = (direction: 'left' | 'right') => {
+    if (dealsContainerRef.current) {
+      const scrollAmount = 412;
+      const newScrollLeft = direction === 'left'
+        ? dealsContainerRef.current.scrollLeft - scrollAmount
+        : dealsContainerRef.current.scrollLeft + scrollAmount;
+      dealsContainerRef.current.scrollTo({
+        left: newScrollLeft,
+        behavior: 'smooth'
+      });
+    }
+  };
 
   const handleFormSubmit = (data: any) => {
     console.log("Giveaway Entry Submitted:", data);
@@ -717,7 +731,11 @@ export const GiveawayDesktop = ({
             ></ButtonProperty1Active>
           </div>
           <div className="flex flex-col gap-6 items-start justify-center flex-1 relative overflow-hidden">
-            <div className="flex flex-row gap-6 items-start justify-start self-stretch shrink-0 relative">
+            <div
+              ref={dealsContainerRef}
+              className="flex flex-row gap-6 items-start justify-start self-stretch shrink-0 relative overflow-x-auto scroll-smooth scrollbar-hide"
+              style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+            >
               <OffersCardProperty1Default className="!shrink-0 !w-[388.95px]"></OffersCardProperty1Default>
               <OffersCardProperty1Default
                 location="Mount Pleasant, Michigan"
@@ -741,8 +759,9 @@ export const GiveawayDesktop = ({
               ></OffersCardProperty1Default>
             </div>
             <div className="flex flex-row gap-8 items-start justify-start shrink-0 relative">
-              <div
-                className="bg-[rgba(255,255,255,0.20)] rounded-[40px] border-solid border-blue-600 border pt-[5px] pr-0.5 pb-[5px] pl-0.5 flex flex-col gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative"
+              <button
+                onClick={() => scrollDeals('left')}
+                className="bg-[rgba(255,255,255,0.20)] rounded-[40px] border-solid border-blue-600 border pt-[5px] pr-0.5 pb-[5px] pl-0.5 flex flex-col gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative cursor-pointer hover:bg-blue-600 hover:bg-opacity-20 transition-colors"
                 style={{
                   transformOrigin: "0 0",
                   transform: "rotate(0deg) scale(-1, 1)",
@@ -755,9 +774,10 @@ export const GiveawayDesktop = ({
                   style={{ aspectRatio: "1" }}
                   src="east1.svg"
                 />
-              </div>
-              <div
-                className="bg-[rgba(255,255,255,0.20)] rounded-[40px] border-solid border-blue-600 border pt-[5px] pr-0.5 pb-[5px] pl-0.5 flex flex-col gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative"
+              </button>
+              <button
+                onClick={() => scrollDeals('right')}
+                className="bg-[rgba(255,255,255,0.20)] rounded-[40px] border-solid border-blue-600 border pt-[5px] pr-0.5 pb-[5px] pl-0.5 flex flex-col gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative cursor-pointer hover:bg-blue-600 hover:bg-opacity-20 transition-colors"
                 style={{ backdropFilter: "blur(15px)", aspectRatio: "1" }}
               >
                 <img
@@ -765,7 +785,7 @@ export const GiveawayDesktop = ({
                   style={{ aspectRatio: "1" }}
                   src="east3.svg"
                 />
-              </div>
+              </button>
             </div>
           </div>
         </div>
