@@ -1,10 +1,11 @@
+import { useState } from "react";
 import { ButtonProperty1Active } from "../ButtonProperty1Active/ButtonProperty1Active";
 import { TruckProperty1Chevy } from "../TruckProperty1Chevy/TruckProperty1Chevy";
-import { InputStateDefault } from "../InputStateDefault/InputStateDefault";
-import { CheckboxV3StateUnchecked } from "../CheckboxV3StateUnchecked/CheckboxV3StateUnchecked";
 import { ButtonProperty1White } from "../ButtonProperty1White/ButtonProperty1White";
 import { OffersCardProperty1Default } from "../OffersCardProperty1Default/OffersCardProperty1Default";
 import { Footer } from "../Footer/Footer";
+import { Navbar } from "../components/Navbar/Navbar";
+import { EntryForm } from "../components/EntryForm/EntryForm";
 
 export interface IGiveawayDesktopProps {
   className?: string;
@@ -14,6 +15,13 @@ export const GiveawayDesktop = ({
   className,
   ...props
 }: IGiveawayDesktopProps): JSX.Element => {
+  const [activeSection, setActiveSection] = useState("home");
+
+  const handleFormSubmit = (data: any) => {
+    console.log("Giveaway Entry Submitted:", data);
+    alert("Thank you for entering! Good luck!");
+  };
+
   return (
     <div
       className={
@@ -21,43 +29,8 @@ export const GiveawayDesktop = ({
         className
       }
     >
-      <div className="pr-12 pl-12 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
-        <div
-          className="bg-neutral-white rounded-xl pt-8 pb-5 flex flex-row items-center justify-between self-stretch shrink-0 relative overflow-hidden"
-          style={{ boxShadow: "0px 10px 30px -12px rgba(0, 0, 0, 0.25)" }}
-        >
-          <img
-            className="shrink-0 w-[174.4px] h-[31.18px] relative overflow-visible"
-            src="group-190.svg"
-          />
-          <div className="flex flex-row gap-8 items-center justify-end shrink-0 relative">
-            <div className="border-solid border-orange-500 border-b-2 flex flex-row gap-1 items-center justify-center shrink-0 relative">
-              <div className="text-orange-500 text-left font-['Inter-Regular',_sans-serif] text-text-sizes-text-regular leading-normal font-normal uppercase relative">
-                Home{" "}
-              </div>
-            </div>
-            <div className="flex flex-row gap-1 items-center justify-center shrink-0 relative">
-              <div className="text-color-scheme-1-text text-left font-['Inter-Regular',_sans-serif] text-text-sizes-text-regular leading-normal font-normal uppercase relative">
-                About Us{" "}
-              </div>
-            </div>
-            <div className="flex flex-row gap-1 items-center justify-center shrink-0 relative">
-              <div className="text-color-scheme-1-text text-left font-['Inter-Regular',_sans-serif] text-text-sizes-text-regular leading-normal font-normal uppercase relative">
-                Deals{" "}
-              </div>
-            </div>
-            <div className="flex flex-row gap-1 items-center justify-center shrink-0 relative">
-              <div className="text-color-scheme-1-text text-left font-['Inter-Regular',_sans-serif] text-text-sizes-text-regular leading-normal font-normal uppercase relative">
-                Contact Us{" "}
-              </div>
-            </div>
-          </div>
-          <ButtonProperty1Active
-            text="Call now 1 (888) 664-1859"
-            property1="active"
-            className="!shrink-0"
-          ></ButtonProperty1Active>
-        </div>
+      <div id="home" className="pr-12 pl-12 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
+        <Navbar activeSection={activeSection} onNavClick={setActiveSection} />
         <div className="flex flex-col items-center justify-start self-stretch shrink-0 relative">
           <div className="shrink-0 w-[300px] h-[159.14px] relative overflow-hidden">
             <img
@@ -176,87 +149,7 @@ export const GiveawayDesktop = ({
                 </div>
               </div>
             </div>
-            <div className="pt-6 pr-12 pb-6 pl-12 flex flex-col gap-6 items-center justify-start self-stretch shrink-0 relative">
-              <div className="flex flex-row gap-6 items-start justify-start self-stretch shrink-0 relative">
-                <div className="flex flex-col gap-4 items-start justify-center flex-1 relative">
-                  <div className="flex flex-row gap-4 items-center justify-start self-stretch shrink-0 relative">
-                    <InputStateDefault
-                      showToggle={false}
-                      text="First Name*"
-                      className="!flex-1"
-                    ></InputStateDefault>
-                    <InputStateDefault
-                      showToggle={false}
-                      text="Last Name*"
-                      className="!flex-1"
-                    ></InputStateDefault>
-                    <InputStateDefault
-                      showToggle={false}
-                      text="Email Address*"
-                      className="!flex-1"
-                    ></InputStateDefault>
-                  </div>
-                  <div className="flex flex-row gap-4 items-center justify-start self-stretch shrink-0 relative">
-                    <InputStateDefault
-                      showToggle={false}
-                      text="Phone*"
-                      className="!flex-1"
-                    ></InputStateDefault>
-                    <InputStateDefault
-                      showToggle={false}
-                      text="Zip Code*"
-                      className="!flex-1"
-                    ></InputStateDefault>
-                    <InputStateDefault
-                      text="Do you own an RV?"
-                      visibleIcon={false}
-                      visibleIcons2={false}
-                      className="!flex-1"
-                    ></InputStateDefault>
-                  </div>
-                </div>
-                <div className="bg-neutral-50 rounded-lg pt-4 pr-3 pb-4 pl-3 flex flex-col gap-3 items-start justify-start self-stretch flex-1 relative overflow-hidden">
-                  <div className="text-neutral-600 text-left font-['Montserrat-Bold',_sans-serif] text-sm font-bold relative self-stretch">
-                    Before submitting your entry, please agree to the following{" "}
-                  </div>
-                  <div className="flex flex-row gap-2 items-start justify-start self-stretch shrink-0 relative">
-                    <CheckboxV3StateUnchecked
-                      state="unchecked"
-                      className="!shrink-0"
-                    ></CheckboxV3StateUnchecked>
-                    <div
-                      className="text-neutral-600 text-left font-['Poppins-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 flex items-center justify-start overflow-hidden"
-                      style={{
-                        letterSpacing: "0.2px",
-                        textOverflow: "ellipsis",
-                      }}
-                    >
-                      By clicking &quot;I Consent&quot;, I give my electronic
-                      signature and consent that CampNow, Outdoor Adventures,
-                      Venture Out Resorts, Ocean Canyon Resorts and affiliates
-                      may contact me with offers at the phone number or email
-                      address provided, including by text msg., autodialer, or
-                      prerecorded msg. Purchase not required. Msg. &amp; data
-                      rates may apply.{" "}
-                    </div>
-                  </div>
-                  <div className="bg-neutral-400 rounded-[20px] shrink-0 w-0.5 h-7 absolute right-1 top-[46px]"></div>
-                </div>
-              </div>
-              <ButtonProperty1Active
-                text="Enter Now to Win the Truck or $40K!"
-                property1="active"
-                className="!shrink-0"
-              ></ButtonProperty1Active>
-              <div className="flex flex-row gap-[3.41px] items-center justify-start shrink-0 relative">
-                <div className="text-neutral-300 text-center font-['MaterialIcons-Regular',_sans-serif] text-[11.378402709960938px] leading-[11.38px] font-normal relative">
-                  lock{" "}
-                </div>
-                <div className="text-neutral-300 text-center font-font-family-body text-xs leading-[13.65px] font-bold relative">
-                  Your information is secure{" "}
-                </div>
-              </div>
-            </div>
+            <EntryForm onSubmit={handleFormSubmit} />
           </div>
         </div>
       </div>
@@ -265,14 +158,12 @@ export const GiveawayDesktop = ({
           <div
             className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between flex-1 h-[451.93px] relative overflow-hidden"
             style={{
-              background:
-                "linear-gradient(to left, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%,rgba(255, 255, 255, 0.00) 49.76579546928406%)",
               borderImage:
                 "linear-gradient(180deg, rgba(230, 231, 233, 0.50) 0%,rgba(255, 255, 255, 0.80) 49.78649318218231%,rgba(255, 255, 255, 0.30) 100%)",
               borderImageSlice: "1",
               boxShadow:
                 "var(--big-card-right-shadow-box-shadow,  20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
-              background: "url(case-study-card0.png) center",
+              background: "linear-gradient(to left, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%,rgba(255, 255, 255, 0.00) 49.76579546928406%), url(https://images.pexels.com/photos/2533092/pexels-photo-2533092.jpeg?auto=compress&cs=tinysrgb&w=800) center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
@@ -303,7 +194,7 @@ export const GiveawayDesktop = ({
             <img
               className="rounded-xl flex flex-row gap-2.5 items-center justify-start shrink-0 w-20 h-20 relative"
               style={{ objectFit: "cover", aspectRatio: "1" }}
-              src="frame-80.png"
+              src="https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=200"
             />
             <div className="flex flex-col gap-2.5 items-center justify-start self-stretch shrink-0 relative">
               <div
@@ -326,14 +217,12 @@ export const GiveawayDesktop = ({
           <div
             className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between flex-1 h-[451.93px] relative overflow-hidden"
             style={{
-              background:
-                "linear-gradient(180deg, rgba(7, 29, 54, 1.00) 0%,rgba(255, 255, 255, 0.00) 46.79989814758301%,rgba(7, 29, 54, 1.00) 100%)",
               borderImage:
                 "linear-gradient(180deg, rgba(230, 231, 233, 0.50) 0%,rgba(255, 255, 255, 0.80) 49.78649318218231%,rgba(255, 255, 255, 0.30) 100%)",
               borderImageSlice: "1",
               boxShadow:
                 "var(--big-card-left-shadow-box-shadow,  -20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
-              background: "url(case-study-card1.png) center",
+              background: "linear-gradient(180deg, rgba(7, 29, 54, 1.00) 0%,rgba(255, 255, 255, 0.00) 46.79989814758301%,rgba(7, 29, 54, 1.00) 100%), url(https://images.pexels.com/photos/4386476/pexels-photo-4386476.jpeg?auto=compress&cs=tinysrgb&w=800) center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
@@ -363,7 +252,7 @@ export const GiveawayDesktop = ({
       <img
         className="flex flex-col gap-2.5 items-center justify-start self-stretch shrink-0 h-[427px] relative"
         style={{ objectFit: "cover" }}
-        src="frame-19840779200.png"
+        src="https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=1600"
       />
       <div
         className="pt-5 pr-8 pb-5 pl-8 flex flex-row gap-5 items-center justify-center self-stretch shrink-0 relative overflow-hidden"
@@ -545,7 +434,7 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="p-12 flex flex-row gap-[100px] items-center justify-center shrink-0 w-[1440px] relative">
+      <div id="about" className="p-12 flex flex-row gap-[100px] items-center justify-center shrink-0 w-[1440px] relative">
         <div className="flex flex-row gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
           <div className="shrink-0 w-[579px] h-[557.93px] static">
             <img
@@ -555,7 +444,7 @@ export const GiveawayDesktop = ({
                   "var(--big-card-left-shadow-box-shadow,  -20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
                 objectFit: "cover",
               }}
-              src="rectangle-30.png"
+              src="https://images.pexels.com/photos/6271625/pexels-photo-6271625.jpeg?auto=compress&cs=tinysrgb&w=800"
             />
             <img
               className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-0 top-[150.93px]"
@@ -564,7 +453,7 @@ export const GiveawayDesktop = ({
                   "var(--big-card-right-shadow-box-shadow,  20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
                 objectFit: "cover",
               }}
-              src="rectangle-40.png"
+              src="https://images.pexels.com/photos/5364961/pexels-photo-5364961.jpeg?auto=compress&cs=tinysrgb&w=800"
             />
           </div>
           <div className="flex flex-col gap-8 items-start justify-start flex-1 relative">
@@ -598,7 +487,7 @@ export const GiveawayDesktop = ({
                 <img
                   className="rounded-xl flex flex-row gap-2.5 items-center justify-start shrink-0 w-8 h-8 relative"
                   style={{ objectFit: "cover", aspectRatio: "1" }}
-                  src="frame-81.png"
+                  src="https://images.pexels.com/photos/7176026/pexels-photo-7176026.jpeg?auto=compress&cs=tinysrgb&w=100"
                 />
                 <div className="text-blue-700 text-left font-['Poppins-SemiBold',_sans-serif] text-xl leading-normal font-semibold uppercase relative flex items-center justify-start">
                   100% Legit. Zero Pressure.{" "}
@@ -615,7 +504,7 @@ export const GiveawayDesktop = ({
                 <img
                   className="rounded-xl flex flex-row gap-2.5 items-center justify-start shrink-0 w-8 h-8 relative"
                   style={{ objectFit: "cover", aspectRatio: "1" }}
-                  src="frame-82.png"
+                  src="https://images.pexels.com/photos/8867482/pexels-photo-8867482.jpeg?auto=compress&cs=tinysrgb&w=100"
                 />
                 <div className="text-blue-700 text-left font-['Poppins-SemiBold',_sans-serif] text-xl leading-normal font-semibold uppercase relative flex items-center justify-start">
                   Transparent &amp; Straightforward.{" "}
@@ -685,7 +574,7 @@ export const GiveawayDesktop = ({
               <img
                 className="w-[348.65px] h-[373.66px] absolute left-0 top-0"
                 style={{ objectFit: "cover" }}
-                src="rectangle-60.png"
+                src="https://images.pexels.com/photos/1835927/pexels-photo-1835927.jpeg?auto=compress&cs=tinysrgb&w=600"
               />
             </div>
             <div className="self-stretch flex-1 static">
@@ -726,7 +615,7 @@ export const GiveawayDesktop = ({
               <img
                 className="w-[348.66px] h-[373.66px] absolute left-[437.34px] top-0"
                 style={{ objectFit: "cover" }}
-                src="rectangle-61.png"
+                src="https://images.pexels.com/photos/1683975/pexels-photo-1683975.jpeg?auto=compress&cs=tinysrgb&w=600"
               />
             </div>
             <div className="self-stretch flex-1 static">
@@ -752,7 +641,7 @@ export const GiveawayDesktop = ({
               <img
                 className="w-[348.66px] h-[373.66px] absolute left-[874.67px] top-0"
                 style={{ objectFit: "cover" }}
-                src="rectangle-62.png"
+                src="https://images.pexels.com/photos/1231230/pexels-photo-1231230.jpeg?auto=compress&cs=tinysrgb&w=600"
               />
             </div>
           </div>
@@ -769,7 +658,7 @@ export const GiveawayDesktop = ({
           ></ButtonProperty1White>
         </div>
       </div>
-      <div className="pt-6 pr-12 pb-8 pl-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
+      <div id="deals" className="pt-6 pr-12 pb-8 pl-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
         <div className="bg-grey-10 rounded-[20px] pt-16 pb-16 pl-12 flex flex-row gap-16 items-end justify-center self-stretch shrink-0 relative">
           <div className="bg-blue-50 rounded-xl flex flex-col gap-8 items-start justify-start shrink-0 w-[500px] max-w-[500px] relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
@@ -871,7 +760,7 @@ export const GiveawayDesktop = ({
                   "var(--big-card-left-shadow-box-shadow,  -20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
                 objectFit: "cover",
               }}
-              src="rectangle-31.png"
+              src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=800"
             />
             <img
               className="rounded-[12.08px] border-solid border-[#ffffff] border-2 w-[386px] h-[407px] absolute left-0 top-[150.93px]"
@@ -880,7 +769,7 @@ export const GiveawayDesktop = ({
                   "var(--big-card-right-shadow-box-shadow,  20px 20px 30px 0px rgba(10, 44, 85, 0.20))",
                 objectFit: "cover",
               }}
-              src="rectangle-41.png"
+              src="https://images.pexels.com/photos/1309586/pexels-photo-1309586.jpeg?auto=compress&cs=tinysrgb&w=800"
             />
           </div>
           <div className="flex flex-col gap-8 items-start justify-start flex-1 relative">
@@ -920,7 +809,9 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <Footer className="!shrink-0 !w-[1440px]"></Footer>
+      <div id="contact" className="w-full">
+        <Footer className="!shrink-0 !w-[1440px]" />
+      </div>
     </div>
   );
 };

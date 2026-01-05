@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" fill="none">
+  <defs>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#faaf00;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#fe6d00;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  <path d="M150 10 L165 55 L215 55 L175 85 L190 130 L150 100 L110 130 L125 85 L85 55 L135 55 Z" fill="url(#starGrad)" opacity="0.3"/>
+  <path d="M50 80 L60 100 L85 100 L65 115 L75 140 L50 125 L25 140 L35 115 L15 100 L40 100 Z" fill="url(#starGrad)" opacity="0.2"/>
+  <path d="M250 60 L258 75 L275 75 L262 85 L268 102 L250 92 L232 102 L238 85 L225 75 L242 75 Z" fill="url(#starGrad)" opacity="0.25"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 349 374" fill="none">
+  <defs>
+    <linearGradient id="maskGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fe6d00;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#faaf00;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  <rect width="349" height="374" fill="url(#maskGrad2)" rx="16"/>
+</svg>
