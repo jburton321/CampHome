@@ -2045,8 +2045,15 @@ a:focus, button:focus {
 
 .real-winners-real-stories-span {
   color: #ffffff;
-  -webkit-text-stroke: 2px #1c3e6d;
-  paint-order: stroke fill;
+  text-shadow:
+    -1px -1px 0 #1c3e6d,
+    1px -1px 0 #1c3e6d,
+    -1px 1px 0 #1c3e6d,
+    1px 1px 0 #1c3e6d,
+    -2px 0 0 #1c3e6d,
+    2px 0 0 #1c3e6d,
+    0 -2px 0 #1c3e6d,
+    0 2px 0 #1c3e6d;
 }
 
 .real-winners-real-stories-span2 {
