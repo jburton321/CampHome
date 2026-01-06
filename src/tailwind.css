@@ -2043,6 +2043,16 @@ a:focus, button:focus {
   font-family: 'Red Hat Display', sans-serif !important;
 }
 
+.real-winners-real-stories-span {
+  color: #ffffff;
+  -webkit-text-stroke: 2px #1c3e6d;
+  paint-order: stroke fill;
+}
+
+.real-winners-real-stories-span2 {
+  color: #1c3e6d;
+}
+
 .placeholder\:text-grey-text::placeholder {
   --tw-text-opacity: 1;
   color: rgb(105 101 102 / var(--tw-text-opacity, 1));
