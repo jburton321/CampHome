@@ -588,6 +588,47 @@ export const GiveawayDesktop = ({
               </div>
             </div>
           </div>
+          <div className="flex lg:hidden flex-row gap-4 items-start justify-start self-stretch shrink-0 overflow-x-auto pb-4 -mb-4" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+            <div className="shrink-0 w-[260px] h-[300px] relative group cursor-pointer">
+              <img
+                className="w-full h-[260px] absolute left-0 top-0 rounded-2xl transition-transform duration-700 ease-out group-hover:scale-105"
+                style={{ objectFit: "cover" }}
+                src="rectangle-60.png"
+              />
+              <div className="bg-neutral-white rounded-[10px] p-3 flex flex-row gap-2 items-center justify-start w-[200px] absolute left-[30px] top-[230px] z-10 transition-all duration-300 ease-out group-hover:shadow-lg">
+                <img className="shrink-0 w-5 h-5" src="rewarded-ads0.svg" />
+                <div className="text-secondary-800 text-left font-['Montserrat-SemiBold',_sans-serif] text-sm leading-none font-semibold">
+                  Tina and Karl Pollack
+                </div>
+              </div>
+            </div>
+            <div className="shrink-0 w-[260px] h-[300px] relative group cursor-pointer">
+              <img
+                className="w-full h-[260px] absolute left-0 top-0 rounded-2xl transition-transform duration-700 ease-out group-hover:scale-105"
+                style={{ objectFit: "cover" }}
+                src="rectangle-61.png"
+              />
+              <div className="bg-neutral-white rounded-[10px] p-3 flex flex-row gap-2 items-center justify-start w-[200px] absolute left-[30px] top-[230px] z-10 transition-all duration-300 ease-out group-hover:shadow-lg">
+                <img className="shrink-0 w-5 h-5" src="rewarded-ads1.svg" />
+                <div className="text-secondary-800 text-left font-['Montserrat-SemiBold',_sans-serif] text-sm leading-none font-semibold">
+                  The Balkema Family
+                </div>
+              </div>
+            </div>
+            <div className="shrink-0 w-[260px] h-[300px] relative group cursor-pointer">
+              <img
+                className="w-full h-[260px] absolute left-0 top-0 rounded-2xl transition-transform duration-700 ease-out group-hover:scale-105"
+                style={{ objectFit: "cover" }}
+                src="rectangle-62.png"
+              />
+              <div className="bg-neutral-white rounded-[10px] p-3 flex flex-row gap-2 items-center justify-start w-[200px] absolute left-[30px] top-[230px] z-10 transition-all duration-300 ease-out group-hover:shadow-lg">
+                <img className="shrink-0 w-5 h-5" src="rewarded-ads2.svg" />
+                <div className="text-secondary-800 text-left font-['Montserrat-SemiBold',_sans-serif] text-sm leading-none font-semibold">
+                  Randy (2016 Winner)
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="hidden lg:flex flex-row gap-16 items-start justify-center self-stretch shrink-0 h-[383px] relative">
             <div className="self-stretch flex-1 static group cursor-pointer">
               <div className="bg-neutral-white rounded-[10px] p-4 flex flex-col gap-3 items-start justify-center w-[238.81px] h-[43.59px] absolute left-[134.53px] top-[339.41px] z-10 transition-all duration-300 ease-out group-hover:shadow-lg">

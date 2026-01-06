@@ -693,6 +693,10 @@ a:focus, button:focus {
   left: 26.63%;
 }
 
+.left-\[30px\] {
+  left: 30px;
+}
+
 .left-\[31\.67\%\] {
   left: 31.67%;
 }
@@ -799,6 +803,10 @@ a:focus, button:focus {
 
 .top-\[16\.75\%\] {
   top: 16.75%;
+}
+
+.top-\[230px\] {
+  top: 230px;
 }
 
 .top-\[28\.67\%\] {
@@ -947,6 +955,10 @@ a:focus, button:focus {
 
 .h-\[22px\] {
   height: 22px;
+}
+
+.h-\[260px\] {
+  height: 260px;
 }
 
 .h-\[29\.12px\] {
@@ -1099,6 +1111,10 @@ a:focus, button:focus {
 
 .w-\[238\.81px\] {
   width: 238.81px;
+}
+
+.w-\[260px\] {
+  width: 260px;
 }
 
 .w-\[280px\] {
