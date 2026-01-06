@@ -11,7 +11,7 @@ export const Footer = ({ className, ...props }: IFooterProps): JSX.Element => {
   return (
     <div
       className={
-        "bg-blue-950 py-8 lg:py-10 px-4 lg:px-12 flex flex-col gap-6 items-start justify-center relative " +
+        "bg-blue-950 pt-8 lg:pt-10 pb-[calc(2rem+env(safe-area-inset-bottom,0px))] lg:pb-10 px-5 lg:px-12 flex flex-col gap-6 items-start justify-center relative " +
         className
       }
     >
@@ -53,7 +53,7 @@ export const Footer = ({ className, ...props }: IFooterProps): JSX.Element => {
             </div>
           </div>
           <div className="flex flex-col gap-6 items-center justify-start self-stretch shrink-0 relative">
-            <div className="text-neutral-white text-left font-['Inter-Regular',_sans-serif] text-xs leading-[140%] font-normal relative self-stretch flex items-center justify-start">
+            <div className="text-neutral-white text-left font-['Inter-Regular',_sans-serif] text-sm lg:text-xs leading-[140%] font-normal relative self-stretch flex items-center justify-start">
               Camp Now is a premier destination for RV enthusiasts, offering a
               wide selection of resort experiences tailored to RV travelers. We
               understand the unique needs and preferences of RV enthusiasts, and
@@ -123,7 +123,7 @@ export const Footer = ({ className, ...props }: IFooterProps): JSX.Element => {
               <ButtonProperty1Active
                 text="Send a Message"
                 property1="active"
-                className="!pt-2.5 !pr-12 !pb-2.5 !pl-12 !self-stretch !shrink-0"
+                className="!pt-2.5 !pr-12 !pb-2.5 !pl-12 !self-stretch !shrink-0 w-full lg:w-auto"
               ></ButtonProperty1Active>
             </div>
           </div>

@@ -13,7 +13,7 @@ export const SocialIconsProperty1X = ({
   return (
     <div
       className={
-        "rounded flex flex-row gap-2.5 items-center justify-center w-6 h-6 relative cursor-pointer transition-all duration-300 ease-out hover:opacity-70 hover:scale-110 " +
+        "rounded flex flex-row gap-2.5 items-center justify-center w-11 h-11 lg:w-6 lg:h-6 relative cursor-pointer transition-all duration-300 ease-out hover:opacity-70 hover:scale-110 " +
         className +
         " " +
         variantsClassName

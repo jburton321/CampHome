@@ -893,6 +893,10 @@ a:focus, button:focus {
   height: 2.5rem;
 }
 
+.h-11 {
+  height: 2.75rem;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -1045,6 +1049,10 @@ a:focus, button:focus {
   min-height: 41px;
 }
 
+.min-h-\[44px\] {
+  min-height: 44px;
+}
+
 .\!w-\[280px\] {
   width: 280px !important;
 }
@@ -1055,6 +1063,10 @@ a:focus, button:focus {
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-11 {
+  width: 2.75rem;
 }
 
 .w-14 {
@@ -1551,6 +1563,11 @@ a:focus, button:focus {
   padding-right: 1rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1616,6 +1633,10 @@ a:focus, button:focus {
 
 .pb-\[5px\] {
   padding-bottom: 5px;
+}
+
+.pb-\[calc\(2rem\+env\(safe-area-inset-bottom\2c 0px\)\)\] {
+  padding-bottom: calc(2rem + env(safe-area-inset-bottom,0px));
 }
 
 .pl-0\.5 {
@@ -1692,6 +1713,10 @@ a:focus, button:focus {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .pt-\[5px\] {
@@ -2241,6 +2266,10 @@ a:focus, button:focus {
     height: 5rem;
   }
 
+  .lg\:h-6 {
+    height: 1.5rem;
+  }
+
   .lg\:h-\[31px\] {
     height: 31px;
   }
@@ -2271,6 +2300,10 @@ a:focus, button:focus {
 
   .lg\:\!w-\[623px\] {
     width: 623px !important;
+  }
+
+  .lg\:w-6 {
+    width: 1.5rem;
   }
 
   .lg\:w-\[1440px\] {
@@ -2413,11 +2446,6 @@ a:focus, button:focus {
     padding-right: 2rem;
   }
 
-  .lg\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -2431,6 +2459,10 @@ a:focus, button:focus {
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .lg\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
   .lg\:pb-4 {
@@ -2501,6 +2533,11 @@ a:focus, button:focus {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 }
       

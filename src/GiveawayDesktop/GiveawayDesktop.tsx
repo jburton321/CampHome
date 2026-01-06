@@ -37,7 +37,7 @@ export const GiveawayDesktop = ({
         className
       }
     >
-      <div className="px-4 lg:px-12 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
+      <div className="px-5 lg:px-12 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
         <Navbar />
         <div className="flex flex-col items-center justify-start self-stretch shrink-0 relative">
           <div className="shrink-0 w-[300px] h-[159.14px] relative overflow-hidden flex items-center justify-center z-50">
@@ -157,7 +157,7 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="pt-12 lg:pt-[88px] px-4 lg:px-12 pb-12 lg:pb-[88px] flex flex-col gap-10 lg:gap-20 items-center justify-center self-stretch shrink-0 relative">
+      <div className="pt-12 lg:pt-[88px] px-5 lg:px-12 pb-12 lg:pb-[88px] flex flex-col gap-10 lg:gap-20 items-center justify-center self-stretch shrink-0 relative">
         <div className="flex flex-col lg:flex-row items-center justify-between self-stretch shrink-0 relative gap-6 lg:gap-0">
           <div
             className="rounded-[32px] border-[1.5px] border-solid p-6 flex flex-col items-start justify-between w-full lg:flex-1 h-[300px] lg:h-[451.93px] relative overflow-hidden order-1 lg:order-none"
@@ -344,8 +344,8 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="p-4 lg:p-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
-        <div className="bg-grey-10 rounded-[20px] p-6 lg:p-16 flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center self-stretch shrink-0 relative">
+      <div className="p-5 lg:p-12 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
+        <div className="bg-grey-10 rounded-[20px] p-5 lg:p-16 flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center self-stretch shrink-0 relative">
           <div className="rounded-xl flex flex-col gap-6 lg:gap-8 items-start justify-start shrink-0 w-full lg:w-[500px] lg:max-w-[500px] relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
@@ -373,7 +373,7 @@ export const GiveawayDesktop = ({
             <ButtonProperty1Active
               text="See official rules for odds"
               property1="active"
-              className="!shrink-0"
+              className="!shrink-0 w-full lg:w-auto"
             ></ButtonProperty1Active>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6 items-start justify-start w-full lg:flex-1 relative">
@@ -472,7 +472,7 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="p-4 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full lg:w-[1440px] lg:max-w-[1440px] relative">
+      <div className="p-5 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full lg:w-[1440px] lg:max-w-[1440px] relative">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
           <div className="group shrink-0 w-[280px] h-[320px] lg:w-[579px] lg:h-[557.93px] relative">
             <img
@@ -557,9 +557,9 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="pt-6 px-4 lg:px-12 pb-6 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
+      <div className="pt-6 px-5 lg:px-12 pb-6 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
         <div
-          className="rounded-3xl p-6 lg:p-12 flex flex-col gap-8 lg:gap-12 items-center justify-center self-stretch shrink-0 relative"
+          className="rounded-3xl p-5 lg:p-12 flex flex-col gap-8 lg:gap-12 items-center justify-center self-stretch shrink-0 relative"
           style={{
             background:
               "linear-gradient(52.79deg, rgba(254, 120, 0, 1.00) 0%,rgba(255, 220, 110, 1.00) 100%)",
@@ -733,12 +733,12 @@ export const GiveawayDesktop = ({
           <ButtonProperty1White
             text="Enter Now to Win"
             property1="white"
-            className="!shrink-0"
+            className="!shrink-0 w-full lg:w-auto"
           ></ButtonProperty1White>
         </div>
       </div>
-      <div className="pt-6 px-4 lg:px-12 pb-8 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
-        <div className="bg-grey-10 rounded-[20px] py-8 lg:py-16 px-4 lg:pl-12 lg:pr-0 flex flex-col lg:flex-row gap-8 lg:gap-16 items-start lg:items-end justify-center self-stretch shrink-0 relative">
+      <div className="pt-6 px-5 lg:px-12 pb-8 flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
+        <div className="bg-grey-10 rounded-[20px] py-8 lg:py-16 px-5 lg:pl-12 lg:pr-0 flex flex-col lg:flex-row gap-8 lg:gap-16 items-start lg:items-end justify-center self-stretch shrink-0 relative">
           <div className="rounded-xl flex flex-col gap-6 lg:gap-8 items-start justify-start shrink-0 w-full lg:w-[500px] lg:max-w-[500px] relative">
             <div className="flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative">
               <div
@@ -772,7 +772,7 @@ export const GiveawayDesktop = ({
             <ButtonProperty1Active
               text="I want this deal"
               property1="active"
-              className="!pt-2.5 !pr-12 !pb-2.5 !pl-12 !shrink-0"
+              className="!pt-2.5 !pr-12 !pb-2.5 !pl-12 !shrink-0 w-full lg:w-auto"
             ></ButtonProperty1Active>
           </div>
           <div className="flex flex-col gap-6 items-start justify-center flex-1 relative w-full min-w-0">
@@ -835,7 +835,7 @@ export const GiveawayDesktop = ({
           </div>
         </div>
       </div>
-      <div className="p-4 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full lg:w-[1440px] lg:max-w-[1440px] relative">
+      <div className="p-5 lg:p-12 flex flex-col lg:flex-row gap-8 lg:gap-[100px] items-center justify-center shrink-0 w-full lg:w-[1440px] lg:max-w-[1440px] relative">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-start flex-1 max-w-[1200px] relative">
           <div className="group shrink-0 w-[280px] h-[320px] lg:w-[579px] lg:h-[557.93px] relative">
             <img
@@ -889,7 +889,7 @@ export const GiveawayDesktop = ({
             <ButtonProperty1Active
               text="Learn More"
               property1="active"
-              className="!pt-2.5 !pr-12 !pb-2.5 !pl-12 !shrink-0"
+              className="!pt-2.5 !pr-12 !pb-2.5 !pl-12 !shrink-0 w-full lg:w-auto"
             ></ButtonProperty1Active>
           </div>
         </div>

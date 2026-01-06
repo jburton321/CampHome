@@ -33,7 +33,7 @@ export const EntryForm = ({ className }: IEntryFormProps): JSX.Element => {
   return (
     <div
       className={
-        "pt-6 px-4 lg:px-12 pb-6 flex flex-col gap-4 lg:gap-6 items-center justify-start self-stretch shrink-0 relative " +
+        "pt-6 px-5 lg:px-12 pb-6 flex flex-col gap-4 lg:gap-6 items-center justify-start self-stretch shrink-0 relative " +
         className
       }
     >
@@ -46,7 +46,7 @@ export const EntryForm = ({ className }: IEntryFormProps): JSX.Element => {
                 placeholder="First Name*"
                 value={formData.firstName}
                 onChange={(e) => handleInputChange("firstName", e.target.value)}
-                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
+                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-base lg:text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
               />
             </div>
             <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto transition-all duration-300 ease-out focus-within:border-orange-500 focus-within:ring-2 focus-within:ring-orange-500/20 focus-within:ring-offset-1">
@@ -55,7 +55,7 @@ export const EntryForm = ({ className }: IEntryFormProps): JSX.Element => {
                 placeholder="Last Name*"
                 value={formData.lastName}
                 onChange={(e) => handleInputChange("lastName", e.target.value)}
-                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
+                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-base lg:text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
               />
             </div>
             <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto transition-all duration-300 ease-out focus-within:border-orange-500 focus-within:ring-2 focus-within:ring-orange-500/20 focus-within:ring-offset-1">
@@ -64,7 +64,7 @@ export const EntryForm = ({ className }: IEntryFormProps): JSX.Element => {
                 placeholder="Email Address*"
                 value={formData.email}
                 onChange={(e) => handleInputChange("email", e.target.value)}
-                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
+                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-base lg:text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
               />
             </div>
           </div>
@@ -75,7 +75,7 @@ export const EntryForm = ({ className }: IEntryFormProps): JSX.Element => {
                 placeholder="Phone*"
                 value={formData.phone}
                 onChange={(e) => handleInputChange("phone", e.target.value)}
-                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
+                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-base lg:text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
               />
             </div>
             <div className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto transition-all duration-300 ease-out focus-within:border-orange-500 focus-within:ring-2 focus-within:ring-orange-500/20 focus-within:ring-offset-1">
@@ -84,14 +84,14 @@ export const EntryForm = ({ className }: IEntryFormProps): JSX.Element => {
                 placeholder="Zip Code*"
                 value={formData.zipCode}
                 onChange={(e) => handleInputChange("zipCode", e.target.value)}
-                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
+                className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-base lg:text-xs leading-tight font-normal relative flex-1 bg-transparent border-0 outline-none placeholder:text-grey-text"
               />
             </div>
             <div
               className="bg-[#ffffff] rounded-md border-solid border-[#e0e0e1] border p-3 flex flex-row gap-2 items-center justify-start h-12 relative flex-1 w-full sm:w-auto cursor-pointer transition-all duration-300 ease-out hover:border-orange-300"
               onClick={() => handleInputChange("ownsRV", !formData.ownsRV)}
             >
-              <div className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1">
+              <div className="text-grey-text text-left font-['Montserrat-Regular',_sans-serif] text-base lg:text-xs leading-tight font-normal relative flex-1">
                 Do you own an RV?
               </div>
               <div
@@ -142,7 +142,7 @@ export const EntryForm = ({ className }: IEntryFormProps): JSX.Element => {
               )}
             </div>
             <div
-              className="text-neutral-600 text-left font-['Poppins-Regular',_sans-serif] text-xs leading-tight font-normal relative flex-1 flex items-center justify-start overflow-hidden"
+              className="text-neutral-600 text-left font-['Poppins-Regular',_sans-serif] text-sm lg:text-xs leading-tight font-normal relative flex-1 flex items-center justify-start overflow-hidden"
               style={{
                 letterSpacing: "0.2px",
                 textOverflow: "ellipsis",
@@ -162,7 +162,7 @@ export const EntryForm = ({ className }: IEntryFormProps): JSX.Element => {
       <ButtonProperty1Active
         text="Enter Now to Win the Truck or $40K!"
         property1="active"
-        className="!shrink-0"
+        className="!shrink-0 w-full lg:w-auto"
       />
       <div className="flex flex-row gap-[3.41px] items-center justify-start shrink-0 relative">
         <div className="text-neutral-300 text-center font-['MaterialIcons-Regular',_sans-serif] text-[11.378402709960938px] leading-[11.38px] font-normal relative">
