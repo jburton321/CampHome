@@ -8,7 +8,7 @@ export const Navbar = ({ className }: INavbarProps): JSX.Element => {
   return (
     <div
       className={
-        "lg:bg-neutral-white lg:rounded-xl py-4 lg:pt-8 lg:pb-5 flex flex-row items-center justify-between self-stretch shrink-0 relative overflow-hidden lg:shadow-[0px_10px_30px_-12px_rgba(0,0,0,0.25)] " +
+        "py-4 lg:pt-8 lg:pb-5 flex flex-row items-center justify-between self-stretch shrink-0 relative " +
         className
       }
     >
